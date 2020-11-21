@@ -1,0 +1,28 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+@import url(./header/header.css);
+@import url(./common/common.css);
+@import url(./short-about/short-about.css);
+@import url(./about/about.css);
+@import url(./participation/participation.css);
+@import url(./nominations/nominations.css);
+@import url(./timeline/timeline.css);
+@import url(./programm/programm.css);
+@import url(./mentors/mentors.css);
+@import url(./organizers/organizers.css);
+@import url(./partners/partners.css);
+@import url(./capabilities/capabilities.css);
+@import url(./faq/faq.css);
+@import url(./footer/footer.css);
+
+.body{
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+    background-color: #343f48;
+}
+
+.main{
+    overflow: hidden;
+}
+

@@ -1,0 +1,35 @@
+.footer {
+    padding: 70px 0;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(7, 232, 151);
+}
+.footer__container {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__social {
+    display: flex;
+}
+.footer__social-img {
+    margin-right: 10px;
+    height: 20px;
+}
+.footer__links {
+    
+}
+.footer__links-el {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: custom_32105;
+    font-style: normal;
+    margin-right: 20px;
+    color: rgb(0, 149, 111);
+}
+.footer__main-link {
+}
+.footer__sber {
+    width: 250px;
+}
