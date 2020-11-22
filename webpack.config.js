@@ -47,7 +47,7 @@ module.exports = {
           loader: 'file-loader',
           options: {
             name: '[name]-[contenthash].[ext]',
-            outputPath: '/images/',
+            outputPath: 'images/',
             esModule: false
           }
         }]
