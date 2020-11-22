@@ -68,8 +68,30 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 599px) {
+    .mentors__title {
+        width: 85%;
+        margin-top: 90px;
+        font-size: 46px;
+    }
     .mentors__container{
+        width: 83%;
+        margin-top: 110px;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .mentors__person {
+        flex-wrap: wrap;
+    }
+    .mentors__img {
+        width: 290px;
+        height: 290px;
+        margin-bottom: 40px;
+    }
+    .mentors__name {
+        margin: 0;
+        font-size: 36px;
+    }
+    .mentors__description {
+        font-size: 29px;
     }
 }

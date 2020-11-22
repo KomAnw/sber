@@ -79,8 +79,35 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 599px) {
     .programm__container{
+        width: 90%;
+        gap: 55px;
         grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    .programm__heading {
+        width: 64%;
+        margin: 80px 46px;
+        font-size: 46px;
+    }
+    .programm_day{
+        transform: translate(-20px, 0);
+        width: 75%;
+    }
+    .programm__title {
+        font-size: 40px;
+    }
+    .programm__square {
+        width: 40px;
+        height: 40px;
+    }
+    .programm__time {
+        margin: 0;
+        font-size: 27px;
+    }
+    .programm__description {
+        margin: 0;
+        font-size: 27px;
     }
 }

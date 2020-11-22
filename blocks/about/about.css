@@ -145,14 +145,52 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 599px) {
+    .description-about {
+        width: 90%;
+    }
+    .description-about-main__heading {
+        font-weight: 400;
+        font-size: 38px;
+    }
+    .description-about-paragraph {
+        font-size: 29px;
+        line-height: 34px;
+    }
+    .description-about-main__link {
+        font-size: 28px;
+    }
+    .description-about-other {
+        width: 90%;
+        margin-top: 55px;
+    }
+    .description-about-other__heading {
+        font-size: 28px;
+        line-height: 33px;
+    }
     .description-about-list {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .description-about-list__text{
+        width: 55%;
+        font-size: 28px;
+    }
+    .description-about-list {
+        width: 90%;
+        margin-top: 80px;
+    }
+    .info-popup {
+        width: 35px;
+        height: 35px;
+    }
+    .description-about-list__element:nth-child(4) .description-about-list__text {
+        width: 55%;
+    }
+    .description-about-list__element:nth-child(4) .info-popup {
+        padding-left: 10px;
     }
 }
 
 @media screen and (max-width: 450px) {
-    .description-about-main__heading {
-        font-size: 26px;
-    }
+    
 }

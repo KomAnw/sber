@@ -91,6 +91,9 @@
     font-weight: 400;
     color: black;
 }
+.info__paragraph-mobile{
+    display: none;
+}
 
 @media screen and (max-width: 1310px) {
     .info__img-img {
@@ -121,44 +124,88 @@
     }
 }
 
-@media screen and (max-width: 810px) {
-    .info__img-img{
+@media screen and (max-width: 599px) {
+    .common::after{
         display: none;
     }
-    .info__text{
-        position: initial;
-        width: 80%;
-        margin: 0 auto;
-        background-color: rgb(5, 204, 137);
-        border-radius: 8px;
-    }
-    .info__heading{
-        text-align: center;
-        padding: 20px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .info__heading-el{
-        padding-right: 5px;
-    }
-    .info__paragraph{
-        padding: 30px;
-        width: calc(100% - 60px);
-    }
-    .info__date{
-        padding-left: 20px;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .info__heading,
     .info__paragraph {
         padding: 10px;
     }
+    .info__paragraph{
+        display: none;
+    }
+    .info__paragraph-mobile {
+        margin-left: 30px;
+        margin-top: 40px;
+        display: block;
+        width: 68%;
+        color: white;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 38px;
+        font-family: custom_32105;
+        font-style: normal;
+    }
+    .info__img-img {
+        display: block;
+        width: 826px;
+        transform: translate(0, 0);
+        margin-top: 65px;
+    }
+    .info__heading-el{
+        font-weight: 600;
+        font-family: custom_32105;
+        font-style: normal;
+        color: rgba(255, 255, 255, 1);
+        font-size: 48px;
+    }
+    .info__text {
+        position: absolute;
+        top: 71px;
+        left: 29px;
+        width: fit-content;
+    }
+    .info__square {
+        order: 4;
+    }
+    .info__paragraph-date {
+        order: 2;
+    }
+    .info__date {
+        margin: 47px 0 10px 0;
+        display: flex;
+        flex-wrap: wrap;
+        width: 222px;
+    }
+    .info__square {
+        width: 25px;
+        height: 25px;
+    }
+    .info__paragraph-date {
+        font-size: 34px;
+    }
+    .button span {
+        font-family: custom_32105;
+        font-weight: 400;
+        color: #000000cf;
+        font-size: 27px;
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255,198,2);
+        width: 320px;
+        height: 65px;
+        outline: none;
+        text-decoration: none;
+        margin: 86px 0 160px 30px;
+    }
 }
 
-@media screen and (max-width: 320px) {
-    .info__heading-el{
-        font-size: 42px;
-    }
+@media screen and (max-width: 425px) {
+
+}
+@media screen and (max-width: 375px) {
+
 }

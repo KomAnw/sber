@@ -200,30 +200,23 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 599px) {
+    .ellipse-top{
+        display: none;
+    }
     .description-short {
-        width: 85%;
-    }
-    .small-ball {
-        display: none;
-    }
-    .medium-ball {
-        display: none;
-    }
-    .square {
-        display: none;
-    }
-    .ellipse-top {
-        right: -720px;
+        width: 90%;
+        padding: 56px 0;
     }
     .description-short__heading {
-        margin: 0 auto 15px auto;
-        font-size: 28px;
+        margin: 0 0 15px 0;
+        font-size: 47px;
+    }
+    .description-short-paragraph {
+        color: white;
+        font-size: 29px;
     }
     .description-short__element {
-        width: 100%;
-    }
-    .ellipse-top {
-        right: -877px;
+        font-size: 29px;
     }
 }

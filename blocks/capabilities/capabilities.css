@@ -60,11 +60,9 @@
     }
 }
 
-@media screen and (max-width: 450px) {
-    .capabilities-container__img{
-        display: none;
-    }
-    .capabilities-container__description{
-        margin-left: 0;
+@media screen and (max-width: 599px) {
+    .capabilities-container {
+        width: 90%;
+        flex-wrap: wrap;
     }
 }

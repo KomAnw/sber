@@ -6,3 +6,12 @@
 .links__img_21{
     width: 120px;
 }
+@media screen and (max-width: 599px) {
+    .links__el.tw{
+        transform: translate(70px, 50px);
+    }
+
+    .links__el.sber img{
+        width: 330px;
+    }
+}

@@ -43,8 +43,32 @@
     }
 }
 
-@media screen and (max-width: 450px) {
-    .links__list{
-        grid-template-columns: repeat(1, 1fr);
+@media screen and (max-width: 599px) {
+    .links {
+        width: 90%;
+    }
+    .links__heading {
+        margin: 50px 0;
+        font-size: 46px;
+    }
+    .links__list {
+        list-style: none;
+        margin-left: 10px;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .links__el {
+        width: 40%;
+    }
+    .sber {
+        width: 70%;
+    }
+    .sber img{
+        width: 385px;
+    }
+    .links__img {
+        width: 230px;
     }
 }
