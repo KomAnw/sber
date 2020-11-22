@@ -1,3 +1,4 @@
+@import '../src/variables.scss';
 @import '../vendor/normalize.css';
 @import '../fonts/fonts.css';
 @import './header/header.scss';
@@ -15,9 +16,13 @@
 @import './faq/faq.scss';
 @import './footer/footer.scss';
 
-.body{
+html {
+    font-size: 8px;
+}
+
+.body {
     margin: 0 auto;
-    max-width: 1920px;
+    max-width: 240rem;
     width: 100%;
     background-color: #343f48;
 }

@@ -10,12 +10,12 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding: 90px 0;
+    padding: 11.25rem 0;
 }
 .description-short__heading {
-    margin: 0 0 15px 0;
-    width: 590px;
-    font-size: 40px;
+    margin: 0 0 1.875rem 0;
+    width: 73.75rem;
+    font-size: 5.0rem;
     font-weight: 400;
     font-family: custom_32105;
     font-style: normal;
@@ -24,7 +24,7 @@
 .description-short-paragraph {
     width: 100%;
     color: white;
-    font-size: 20px;
+    font-size: 2.5rem;
     font-weight: 400;
     font-family: custom_32105;
 }
@@ -38,7 +38,7 @@
 .description-short__element {
     width: 60%;
     color: white;
-    font-size: 20px;
+    font-size: 2.5rem;
     font-weight: 400;
     font-family: custom_32105;
 }
@@ -48,82 +48,82 @@
 
 .ellipse-top{
     position: absolute;
-    top: -179px;
-    right: -500px;
-    width: 970px;
-    height: 993px;
+    top:  -22.375rem;
+    right:  -62.5rem;
+    width: 121.25rem;
+    height: 124.125rem;
     border-radius: 100%;
-    border: 2px solid rgb(7,232,151);
+    border: 0.25rem solid rgb(7,232,151);
     z-index: 1;
 }
 
 .small-ball {
     display: block;
     position: absolute;
-    bottom: 170px;
-    right: 549px;
+    bottom: 21.25rem;
+    right: 68.625rem;
     opacity: 0.5;
-    width: 30px;
+    width: 3.75rem;
 }
 .medium-ball {
     display: block;
     position: absolute;
-    top: 35px;
-    right: 357px;
-    width: 120px;
+    top: 4.375rem;
+    right: 44.625rem;
+    width: 15.0rem;
     z-index: 2;
 }
 .square {
     display: block;
     position: absolute;
-    bottom: 30px;
-    right: 414px;
+    bottom: 3.75rem;
+    right: 51.75rem;
     transform: rotate(45deg);
-    width: 300px;
+    width: 37.5rem;
 }
 
 @media screen and (max-width: 1675px) {
     .small-ball {
-        right: 400px;
+        right: 50.0rem;
     }
     .medium-ball {
-        right: 216px;
+        right: 27.0rem;
     }
     .square {
-        right: 267px;
+        right: 33.375rem;
     }
     .ellipse-top {
-        right: -640px;
+        right:  -80.0rem;
     }
 }
 
 @media screen and (max-width: 1450px) {
     .small-ball {
-        right: 324px;
+        right: 40.5rem;
     }
     .medium-ball {
-        right: 143px;
+        right: 17.875rem;
     }
     .square {
-        right: 190px;
+        right: 23.75rem;
     }
     .ellipse-top {
-        right: -720px;
+        right:  -90.0rem;
     }
 }
 
 @media screen and (max-width: 1450px) {
     .small-ball {
-        right: 324px;
+        right: 40.5rem;
     }
     .medium-ball {
-        right: 143px;
+        right: 17.875rem;
     }
     .square {
-        right: 190px;
+        right: 23.75rem;
     }
     .ellipse-top {
-        right: -720px;
+        right:  -90.0rem;
     }
 }
 
@@ -132,19 +132,19 @@
         width: 70%;
     }
     .small-ball {
-        right: 214px;
-        bottom: 154px;
-        width: 30px;
+        right: 26.75rem;
+        bottom: 19.25rem;
+        width: 3.75rem;
     }
     .medium-ball {
-        right: 59px;
+        right: 7.375rem;
     }
     .square {
-        width: 265px;
-        right: 92px;
+        width: 33.125rem;
+        right: 11.5rem;
     }
     .ellipse-top {
-        right: -801px;
+        right:  -100.125rem;
     }
 }
 
@@ -153,18 +153,18 @@
         width: 80%;
     }
     .small-ball {
-        right: 200px;
-        bottom: 134px;
+        right: 25.0rem;
+        bottom: 16.75rem;
     }
     .medium-ball {
-        right: 36px;
+        right: 4.5rem;
     }
     .square {
-        width: 235px;
-        right: 98px;
+        width: 29.375rem;
+        right: 12.25rem;
     }
     .ellipse-top {
-        right: -826px;
+        right:  -103.25rem;
     }
 }
 
@@ -186,17 +186,17 @@
         width: 85%;
     }
     .ellipse-top {
-        right: -720px;
+        right:  -90.0rem;
     }
     .description-short__heading {
-        margin: 0 0 15px 0;
-        font-size: 42px;
+        margin: 0 0 1.875rem 0;
+        font-size: 5.25rem;
     }
     .description-short__element {
         width: 100%;
     }
     .ellipse-top {
-        right: -877px;
+        right:  -109.625rem;
     }
 }
 
@@ -206,75 +206,75 @@
     }
     .description-short {
         width: 90%;
-        padding: 56px 0;
+        padding: 7.0rem 0;
     }
     .description-short__heading {
-        margin: 0 0 15px 0;
-        font-size: 47px;
+        margin: 0 0 1.875rem 0;
+        font-size: 5.875rem;
     }
     .description-short-paragraph {
         color: white;
-        font-size: 29px;
+        font-size: 3.625rem;
     }
     .description-short__element {
-        font-size: 29px;
+        font-size: 3.625rem;
     }
 }
 
 /* @media screen and (max-width: 520px) {
     .description-short {
         width: 90%;
-        padding: 42px 0;
+        padding: 5.25rem 0;
     }
     .description-short-paragraph {
         color: white;
-        font-size: 21px;
+        font-size: 2.625rem;
     }
     .description-short__element {
-        font-size: 21px;
+        font-size: 2.625rem;
     }
     .description-short__heading {
-        margin: 0 0 15px 0;
-        font-size: 35px;
+        margin: 0 0 1.875rem 0;
+        font-size: 4.375rem;
     }
 }
 
 @media screen and (max-width: 420px) {
     .description-short {
         width: 90%;
-        padding: 38px 0;
+        padding: 4.75rem 0;
     }
     .description-short-paragraph {
         color: white;
-        font-size: 18px;
+        font-size: 2.25rem;
     }
     .description-short__element {
-        font-size: 18px;
+        font-size: 2.25rem;
     }
     .description-short__heading {
-        margin: 0 0 15px 0;
-        font-size: 28px;
+        margin: 0 0 1.875rem 0;
+        font-size: 3.5rem;
     }
 }
 
 @media screen and (max-width: 375px) {
     .description-short {
         width: 90%;
-        padding: 35px 0;
+        padding: 4.375rem 0;
     }
     .short__heading {
-        margin: 0 0 15px 0;
-        font-size: 25px;
+        margin: 0 0 1.875rem 0;
+        font-size: 3.125rem;
     }
     .description-short-paragraph {
         color: white;
-        font-size: 16px;
+        font-size: 2.0rem;
     }
     .description-short__element {
-        font-size: 16px;
+        font-size: 2.0rem;
     }
     .description-short__heading {
-        margin: 0 0 15px 0;
-        font-size: 26px;
+        margin: 0 0 1.875rem 0;
+        font-size: 3.25rem;
     }
 } */

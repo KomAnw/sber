@@ -1,12 +1,12 @@
 .common {
     width: 100%;
     margin: 0 auto;
-    padding-bottom: 60px;
+    padding-bottom: 7.5rem;
     position: relative;
 }
 .common::after{
     background: no-repeat center 100% url(../../images/common/grid.png);
-    background-size: 1600px auto;
+    background-size: 200.0rem auto;
     opacity: 0.6;
     content: "";
     top: 0;
@@ -26,51 +26,51 @@
 }
 .info__img-img {
     display: block;
-    width: 1260px;
+    width: 157.5rem;
     transform: translate(130px, 0);
 }
 .info__text {
     position: absolute;
-    top: 90px;
-    left: 180px;
+    top: 11.25rem;
+    left: 22.5rem;
 }
 
 .info__heading-el{
-    margin: 9px 0;
+    margin: 1.125rem 0;
     color: white;
-    font-size: 60px;
+    font-size: 7.5rem;
     font-weight: 600;
     font-family: custom_32105;
 }
 
 .info__heading-el:last-child{
-    margin-bottom: 50px;
+    margin-bottom: 6.25rem;
 }
 
 .info__date {
-    margin: 0 0 20px 0;
+    margin: 0 0 2.5rem 0;
     display: flex;
 }
 .info__square {
     align-self: center;
-    margin-right: 10px;
-    width: 20px;
-    height: 20px;
+    margin-right: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
     background-color: rgba(255, 198, 2, 0.9);
 }
 .info__paragraph-date {
     margin: 0;
     color: white;
-    font-size: 29px;
+    font-size: 3.625rem;
     font-weight: 600;
     font-family: custom_32105;
 }
 .info__paragraph {
     width: 29%;
     color: white;
-    font-size: 20px;
+    font-size: 2.5rem;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 3.25rem;
     font-family: custom_32105;
     font-style: normal;
 }
@@ -79,14 +79,15 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(255,198,2);
-    width: 240px;
-    height: 50px;
+    width: 30.0rem;
+    height: 6.25rem;
     outline: none;
     text-decoration: none;
-    margin: 40px auto;
+    margin: 5.0rem auto;
 }
 
 .button span{
+    font-size: 2.25rem;
     font-family: custom_32105;
     font-weight: 400;
     color: black;
@@ -98,28 +99,28 @@
 @media screen and (max-width: 1310px) {
     .info__img-img {
         display: block;
-        width: 866px;
+        width: 108.25rem;
         transform: translate(80px, 0);
     }
     .info__text {
         position: absolute;
-        top: 40px;
-        left: 100px;
+        top: 5.0rem;
+        left: 12.5rem;
         width: fit-content;
     }
     .info__heading-el {
-        margin: 5px 0;
-        font-size: 45px;
+        margin: 0.625rem 0;
+        font-size: 5.625rem;
     }
     .info__heading-el:last-child {
-        margin-bottom: 10px;
+        margin-bottom: 1.25rem;
     }
     .info__paragraph{
         margin: 0;
         width: 38%;
     }
     .info__date {
-        margin: 0 0 10px 0;
+        margin: 0 0 1.25rem 0;
         display: flex;
     }
 }
@@ -129,20 +130,20 @@
         display: none;
     }
     .info__paragraph {
-        padding: 10px;
+        padding: 1.25rem;
     }
     .info__paragraph{
         display: none;
     }
     .info__paragraph-mobile {
-        margin-left: 30px;
-        margin-top: 40px;
+        margin-left: 3.75rem;
+        margin-top: 5.0rem;
         display: block;
         width: 68%;
         color: white;
-        font-size: 28px;
+        font-size: 3.5rem;
         font-weight: 400;
-        line-height: 38px;
+        line-height: 4.75rem;
         font-family: custom_32105;
         font-style: normal;
     }
@@ -157,12 +158,12 @@
         font-family: custom_32105;
         font-style: normal;
         color: rgba(255, 255, 255, 1);
-        font-size: 48px;
+        font-size: 6.0rem;
     }
     .info__text {
         position: absolute;
-        top: 71px;
-        left: 29px;
+        top: 8.875rem;
+        left: 3.625rem;
         width: fit-content;
     }
     .info__square {
@@ -172,178 +173,178 @@
         order: 2;
     }
     .info__date {
-        margin: 47px 0 10px 0;
+        margin: 5.875rem 0 1.25rem 0;
         display: flex;
         flex-wrap: wrap;
-        width: 222px;
+        width: 27.75rem;
     }
     .info__square {
-        width: 25px;
-        height: 25px;
+        width: 3.125rem;
+        height: 3.125rem;
     }
     .info__paragraph-date {
-        font-size: 34px;
+        font-size: 4.25rem;
     }
     .button span {
         font-family: custom_32105;
         font-weight: 400;
         color: #000000cf;
-        font-size: 27px;
+        font-size: 3.375rem;
     }
     .button {
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: rgb(255,198,2);
-        width: 320px;
-        height: 65px;
+        width: 40.0rem;
+        height: 8.125rem;
         outline: none;
         text-decoration: none;
-        margin: 86px 0 160px 30px;
+        margin: 10.75rem 0 20.0rem 3.75rem;
     }
 }
 
-@media screen and (max-width: 555px) {
-    .info__text {
-        top: 40px;
-        left: 20px;
-    }
-    .info__heading-el {
-        font-size: 45px;
-    }
-    .info__date {
-        margin: 29px 0 10px 0;
-        width: 129px;
-    }
-    .info__square {
-        width: 25px;
-        height: 25px;
-    }
-    .info__paragraph-date {
-        font-size: 35px;
-    }
-    .info__paragraph-mobile {
-        margin-left: 20px;
-        margin-top: 33px;
-        width: 86%;
-        font-size: 22px;
-        line-height: 25px;
-    }
-    .button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgb(255,198,2);
-        width: 200px;
-        height: 43px;
-        outline: none;
-        text-decoration: none;
-        margin: 50px 0 100px 20px;
-    }
+// @media screen and (max-width: 555px) {
+//     .info__text {
+//         top: 5.0rem;
+//         left: 2.5rem;
+//     }
+//     .info__heading-el {
+//         font-size: 5.625rem;
+//     }
+//     .info__date {
+//         margin: 3.625rem 0 1.25rem 0;
+//         width: 16.125rem;
+//     }
+//     .info__square {
+//         width: 3.125rem;
+//         height: 3.125rem;
+//     }
+//     .info__paragraph-date {
+//         font-size: 4.375rem;
+//     }
+//     .info__paragraph-mobile {
+//         margin-left: 2.5rem;
+//         margin-top: 4.125rem;
+//         width: 86%;
+//         font-size: 2.75rem;
+//         line-height: 3.125rem;
+//     }
+//     .button {
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         background-color: rgb(255,198,2);
+//         width: 25.0rem;
+//         height: 5.375rem;
+//         outline: none;
+//         text-decoration: none;
+//         margin: 6.25rem 0 12.5rem 2.5rem;
+//     }
 
-    .button span {
-        font-size: 16px;
-    }
-}
+//     .button span {
+//         font-size: 2.0rem;
+//     }
+// }
 
 /* @media screen and (max-width: 520px) {
     .info__heading-el {
-        font-size: 38px;
+        font-size: 4.75rem;
     }
     .info__date {
-        margin: 45px 0 10px 0;
-        width: 200px;
+        margin: 5.625rem 0 1.25rem 0;
+        width: 25.0rem;
     }
     .info__paragraph-date {
-        font-size: 30px;
+        font-size: 3.75rem;
     }
     .info__text {
-        top: 50px;
-        left: 20px;
+        top: 6.25rem;
+        left: 2.5rem;
     }
 }
 
 @media screen and (max-width: 460px) {
     .info__heading-el {
-        font-size: 32px;
+        font-size: 4.0rem;
     }
     .info__date {
-        margin: 45px 0 10px 0;
-        width: 193px;
+        margin: 5.625rem 0 1.25rem 0;
+        width: 24.125rem;
     }
     .info__paragraph-date {
-        font-size: 25px;
+        font-size: 3.125rem;
     }
     .info__text {
-        top: 50px;
-        left: 20px;
+        top: 6.25rem;
+        left: 2.5rem;
     }
     .info__square {
-        width: 20px;
-        height: 20px;
+        width: 2.5rem;
+        height: 2.5rem;
     }
     
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 51.25rem) {
     .info__text {
-        top: 40px;
-        left: 20px;
+        top: 5.0rem;
+        left: 2.5rem;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 46.875rem) {
     .info__text {
-        top: 45px;
-        left: 24px;
+        top: 5.625rem;
+        left: 3.0rem;
     }
     .info__heading-el {
-        font-size: 30px;
+        font-size: 3.75rem;
     }
     .info__date {
-        margin: 29px 0 10px 0;
-        width: 129px;
+        margin: 3.625rem 0 1.25rem 0;
+        width: 16.125rem;
     }
     .info__square {
-        width: 15px;
-        height: 15px;
+        width: 1.875rem;
+        height: 1.875rem;
     }
     .info__paragraph-date {
-        font-size: 19px;
+        font-size: 2.375rem;
     }
     .info__paragraph-mobile {
-        margin-left: 20px;
-        margin-top: 33px;
+        margin-left: 2.5rem;
+        margin-top: 4.125rem;
         width: 86%;
-        font-size: 16px;
-        line-height: 21px;
+        font-size: 2.0rem;
+        line-height: 2.625rem;
     }
     .button {
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: rgb(255,198,2);
-        width: 200px;
-        height: 43px;
+        width: 25.0rem;
+        height: 5.375rem;
         outline: none;
         text-decoration: none;
-        margin: 50px 0 100px 20px;
+        margin: 6.25rem 0 12.5rem 2.5rem;
     }
 
     .button span {
-        font-size: 16px;
+        font-size: 2.0rem;
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 43.75rem) {
     .common {
-        padding-bottom: 40px;
+        padding-bottom: 5.0rem;
     }
     .info__text {
-        top: 27px;
-        left: 13px;
+        top: 3.375rem;
+        left: 1.625rem;
     }
     .info__heading-el {
-        font-size: 28px;
+        font-size: 3.5rem;
     }
 } */

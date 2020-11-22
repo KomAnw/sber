@@ -7,7 +7,7 @@
     margin: 0 auto;
 }
 .faq__heading {
-    font-size: 40px;
+    font-size: 5.0rem;
     font-weight: 400;
     font-family: custom_32105;
     font-style: normal;
@@ -18,7 +18,7 @@
 .faq__text {
 }
 .faq__description{
-    font-size: 20px;
+    font-size: 2.5rem;
     font-weight: 400;
     font-family: custom_32105;
     font-style: normal;
@@ -26,8 +26,8 @@
 }
 .faq__img {
     cursor: pointer;
-    width: 25px;
-    height: 25px;
+    width: 3.125rem;
+    height: 3.125rem;
 }
 
 @media screen and (max-width: 1350px) {
@@ -47,19 +47,19 @@
         width: 83%;
     }
     .faq__heading {
-        margin-top: 120px;
-        font-size: 47px;
+        margin-top: 15.0rem;
+        font-size: 5.875rem;
     }
     .faq__info {
-        margin-bottom: 165px;
+        margin-bottom: 20.625rem;
     }
     .faq__description {
         width: 81%;
-        font-size: 30px;
+        font-size: 3.75rem;
         display: inline-block;
     }
     .faq__img {
-        width: 35px;
-        height: 35px;
+        width: 4.375rem;
+        height: 4.375rem;
     }
 }
