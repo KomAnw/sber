@@ -1,1 +1,3 @@
-import '../blocks/style.css';
+import '../blocks/style.scss';
+
+

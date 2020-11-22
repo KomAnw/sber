@@ -33,6 +33,21 @@ module.exports = {
     rules: [
       { test: /\.handlebars$/, loader: "handlebars-loader" },
       {
+        test: /\.s[ac]ss$/i,
+        use: [
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              publicPath
+            }
+          },
+          // Translates CSS into CommonJS
+          "css-loader",
+          // Compiles Sass to CSS
+          "resolve-url-loader",
+          "sass-loader"
+        ],
+      }, {
         test: /\.css$/i,
         use: [{
           loader: MiniCssExtractPlugin.loader,

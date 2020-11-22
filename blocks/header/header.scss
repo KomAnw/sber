@@ -1,0 +1,34 @@
+.header {
+    width: 100%;
+    margin: 60px auto 20px auto;
+}
+
+.logo {
+    margin: 0 auto;
+    width: 47%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo__img{
+    width: 145px;
+}
+
+@media screen and (max-width: 1440px) {
+    .logo {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .header {
+        margin: 7% auto 3% auto;
+    }
+    .logo {
+        width: fit-content;
+        margin-left: 6%;
+    }
+    .logo__img {
+        width: 75%;
+    }
+}
