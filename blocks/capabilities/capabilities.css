@@ -64,5 +64,22 @@
     .capabilities-container {
         width: 90%;
         flex-wrap: wrap;
+        margin-top: 70px;
+    }
+    .capabilities-container__img {
+        width: 415px;
+    }
+    .capabilities-container__description {
+        width: 93%;
+        margin-left: 0;
+    }
+    .capabilities-container__title {
+        font-size: 50px;
+    }
+    .capabilities-container__paragraph {
+        font-size: 28px;
+    }
+    .capabilities-container__paragraph:last-child{
+        margin-bottom: 0;
     }
 }

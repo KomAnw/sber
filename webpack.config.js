@@ -9,6 +9,7 @@ const publicPath = '/';
 const distFolderName = 'dist';
 
 module.exports = {
+  devtool: `inline-source-map`,
   entry: './src/index.js',
   output: {
     filename: 'main-[contenthash].js',

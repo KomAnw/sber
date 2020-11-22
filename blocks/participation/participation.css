@@ -173,3 +173,19 @@
     }
     
 }
+/* 
+@media screen and (max-width: 350px) {
+    .participation-container__heading {
+        font-size: 26px;
+    }
+    .participation-container__heading {
+        margin-bottom: 40px;
+    }.participation-list__heading {
+        font-size: 18px;
+    }
+    .participation-list__paragraph {
+        margin: 10px 0 30px 0;
+        width: 100%;
+        font-size: 16px;
+    }
+} */

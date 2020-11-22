@@ -120,4 +120,17 @@
         margin-left: 0px;
         font-size: 28px;
     }
+    .timeline__el {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 599px) {
+    .timeline {
+        padding-top: 50px;
+    }
+    .timeline__headding {
+        margin: 0;
+        margin-bottom: 38px;
+        font-size: 30px;
+    }
 }

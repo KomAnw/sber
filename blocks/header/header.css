@@ -22,30 +22,13 @@
 
 @media screen and (max-width: 599px) {
     .header {
-        margin: 37px auto 20px auto;
+        margin: 7% auto 3% auto;
     }
     .logo {
-        width: 80%;
-        margin-left: 34px;
+        width: fit-content;
+        margin-left: 6%;
     }
     .logo__img {
-        width: 265px;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .header {
-        margin: 30px auto 20px auto;
-    }
-    .logo {
-        margin-left: 27px;
-    }
-    .logo__img {
-        width: 220px;
-    }
-}
-@media screen and (max-width: 375px) {
-    .logo__img {
-        width: 213px;
+        width: 75%;
     }
 }
