@@ -15,7 +15,7 @@ module.exports = {
     path: path.resolve(__dirname, distFolderName),
   },
   plugins: [
-    // new CleanWebpackPlugin(),
+    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: './src/index.hbs',
       inject: 'body'
