@@ -96,34 +96,16 @@
     display: none;
 }
 
-@media screen and (max-width: 1310px) {
-    .info__img-img {
-        display: block;
-        width: 108.25rem;
-        transform: translate(80px, 0);
-    }
-    .info__text {
-        position: absolute;
-        top: 5.0rem;
-        left: 12.5rem;
-        width: fit-content;
-    }
-    .info__heading-el {
-        margin: 0.625rem 0;
-        font-size: 5.625rem;
-    }
-    .info__heading-el:last-child {
-        margin-bottom: 1.25rem;
-    }
-    .info__paragraph{
-        margin: 0;
-        width: 38%;
-    }
-    .info__date {
-        margin: 0 0 1.25rem 0;
-        display: flex;
-    }
+.medium-ball-mobile {
+    display: none;
 }
+.small-ball-mobile {
+    display: none;
+}
+.ellipse-common-mobile{
+    display: none;
+}
+
 
 @media screen and (max-width: 599px) {
     .common::after{
@@ -202,149 +184,27 @@
         text-decoration: none;
         margin: 10.75rem 0 20.0rem 3.75rem;
     }
-}
-
-// @media screen and (max-width: 555px) {
-//     .info__text {
-//         top: 5.0rem;
-//         left: 2.5rem;
-//     }
-//     .info__heading-el {
-//         font-size: 5.625rem;
-//     }
-//     .info__date {
-//         margin: 3.625rem 0 1.25rem 0;
-//         width: 16.125rem;
-//     }
-//     .info__square {
-//         width: 3.125rem;
-//         height: 3.125rem;
-//     }
-//     .info__paragraph-date {
-//         font-size: 4.375rem;
-//     }
-//     .info__paragraph-mobile {
-//         margin-left: 2.5rem;
-//         margin-top: 4.125rem;
-//         width: 86%;
-//         font-size: 2.75rem;
-//         line-height: 3.125rem;
-//     }
-//     .button {
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         background-color: rgb(255,198,2);
-//         width: 25.0rem;
-//         height: 5.375rem;
-//         outline: none;
-//         text-decoration: none;
-//         margin: 6.25rem 0 12.5rem 2.5rem;
-//     }
-
-//     .button span {
-//         font-size: 2.0rem;
-//     }
-// }
-
-/* @media screen and (max-width: 520px) {
-    .info__heading-el {
-        font-size: 4.75rem;
+    .medium-ball-mobile {
+        position: absolute;
+        bottom: 70px;
+        left: 25px;
+        width: 100px;
+        z-index: 2;
     }
-    .info__date {
-        margin: 5.625rem 0 1.25rem 0;
-        width: 25.0rem;
+    .small-ball-mobile {
+        position: absolute;
+        bottom: 290px;
+        right: 60px;
+        opacity: 0.6;
     }
-    .info__paragraph-date {
-        font-size: 3.75rem;
-    }
-    .info__text {
-        top: 6.25rem;
-        left: 2.5rem;
+    .ellipse-common-mobile{
+        position: absolute;
+        top: -56.375rem;
+        right: -27.5rem;
+        width: 138.25rem;
+        height: 179.125rem;
+        border-radius: 100%;
+        border: 0.5rem solid #07e897;
+        z-index: 1;
     }
 }
-
-@media screen and (max-width: 460px) {
-    .info__heading-el {
-        font-size: 4.0rem;
-    }
-    .info__date {
-        margin: 5.625rem 0 1.25rem 0;
-        width: 24.125rem;
-    }
-    .info__paragraph-date {
-        font-size: 3.125rem;
-    }
-    .info__text {
-        top: 6.25rem;
-        left: 2.5rem;
-    }
-    .info__square {
-        width: 2.5rem;
-        height: 2.5rem;
-    }
-    
-}
-
-@media screen and (max-width: 51.25rem) {
-    .info__text {
-        top: 5.0rem;
-        left: 2.5rem;
-    }
-}
-
-@media screen and (max-width: 46.875rem) {
-    .info__text {
-        top: 5.625rem;
-        left: 3.0rem;
-    }
-    .info__heading-el {
-        font-size: 3.75rem;
-    }
-    .info__date {
-        margin: 3.625rem 0 1.25rem 0;
-        width: 16.125rem;
-    }
-    .info__square {
-        width: 1.875rem;
-        height: 1.875rem;
-    }
-    .info__paragraph-date {
-        font-size: 2.375rem;
-    }
-    .info__paragraph-mobile {
-        margin-left: 2.5rem;
-        margin-top: 4.125rem;
-        width: 86%;
-        font-size: 2.0rem;
-        line-height: 2.625rem;
-    }
-    .button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgb(255,198,2);
-        width: 25.0rem;
-        height: 5.375rem;
-        outline: none;
-        text-decoration: none;
-        margin: 6.25rem 0 12.5rem 2.5rem;
-    }
-
-    .button span {
-        font-size: 2.0rem;
-    }
-}
-
-@media screen and (max-width: 43.75rem) {
-    .common {
-        padding-bottom: 5.0rem;
-    }
-    .info__text {
-        top: 3.375rem;
-        left: 1.625rem;
-    }
-    .info__heading-el {
-        font-size: 3.5rem;
-    }
-} */

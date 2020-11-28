@@ -1,4 +1,5 @@
 .mentors {
+    position: relative;
     width: 100%;
     margin: 0 auto;
 }
@@ -48,24 +49,52 @@
     color: rgba(255, 255, 255, 1);
 }
 .mentors__link {
+    color: rgb(0, 149, 111);
+    font-weight: 400;
+    font-family: custom_32105;
+    font-size: 16px;
 }
 
-@media screen and (max-width: 1350px) {
-    .mentors__title{
-        width: 70%;
-    }
-    .mentors__container{
-        width: 70%;
-    }
+.ellipse-mentors-left {
+    position: absolute;
+    top: -35.375rem;
+    left: -62.5rem;
+    width: 87.25rem;
+    height: 83.125rem;
+    border-radius: 100%;
+    border: .25rem solid #07e897;
+    z-index: 1;
 }
-
-@media screen and (max-width: 1025px) {
-    .mentors__title{
-        width: 80%;
-    }
-    .mentors__container{
-        width: 80%;
-    }
+.ellipse-mentors-right {
+    position: absolute;
+    top: -26.375rem;
+    right: -62.5rem;
+    width: 121.25rem;
+    height: 124.125rem;
+    border-radius: 100%;
+    border: .25rem solid #07e897;
+    z-index: 1;
+}
+.ball-mentors {
+    position: absolute;
+    top: -13.375rem;
+    left: 18rem;
+    width: 5.25rem;
+    z-index: 2;
+}
+.triangle {
+    position: absolute;
+    top: 24.625rem;
+    right: 48rem;
+    width: 22.25rem;
+    z-index: 2;
+    transform: rotate(-35deg);
+}
+.mentors-dots-mobile {
+    display: none;
+}
+.mentors-dots-mobile.bottom {
+    display: none;
 }
 
 @media screen and (max-width: 599px) {
@@ -76,7 +105,7 @@
     }
     .mentors__container{
         width: 83%;
-        margin-top: 13.75rem;
+        margin-top: 6.75rem;
         grid-template-columns: repeat(1, 1fr);
     }
     .mentors__person {
@@ -93,5 +122,28 @@
     }
     .mentors__description {
         font-size: 3.625rem;
+    }
+    .ellipse-mentors-left {
+        display: none;
+    }
+    .ellipse-mentors-right {
+        display: none;
+    }
+    .ball-mentors {
+        display: none;
+    }
+    .triangle {
+        display: none;
+    }
+    .mentors-dots-mobile {
+        position: absolute;
+        top: 866px;
+        right: -788px;
+        transform: rotate(90deg) scale(0.85);
+        opacity: .5;
+        z-index: -1;
+    }
+    .mentors-dots-mobile.bottom {
+        top: 2746px;
     }
 }

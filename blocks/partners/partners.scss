@@ -1,4 +1,5 @@
 .partners {
+    position: relative;
     width: 100%;
     margin: 0 auto;
 }
@@ -6,6 +7,25 @@
 .links__img_21{
     width: 15.0rem;
 }
+.grid-partners {
+    position: absolute;
+    top: 264px;
+    left: -780px;
+    width: 2100px;
+    transform: rotate(90deg);
+    opacity: .2;
+    z-index: -1;
+}
+.dots-partners {
+    position: absolute;
+    top: -378px;
+    right: -508px;
+    width: 1527px;
+    transform: rotate(-90deg);
+    opacity: .5;
+    z-index: -1;
+}
+
 @media screen and (max-width: 599px) {
     .links__el.tw{
         transform: translate(70px, 6.25rem);
@@ -13,5 +33,17 @@
 
     .links__el.sber img{
         width: 41.25rem;
+    }
+    .grid-partners {
+        position: absolute;
+        top: 1948px;
+        left: -812px;
+        width: 2208px;
+        transform: rotate(90deg);
+        opacity: .2;
+        z-index: -1;
+    }
+    .dots-partners{
+        display: none;
     }
 }

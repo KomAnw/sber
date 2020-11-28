@@ -1,6 +1,7 @@
 .programm {
+    position: relative;
     width: 100%;
-    margin: 12.5rem auto 0 auto;
+    margin: 16.5rem auto 0 auto;
 }
 
 .programm__container {
@@ -18,6 +19,7 @@
     font-family: custom_32105;
     font-style: normal;
     color: rgba(7, 232, 151, 1);
+    padding-bottom: 60px;
 }
 .programm_day {
     padding: 3.75rem;
@@ -66,20 +68,60 @@
     font-style: normal;
     color: white;
 }
-
-@media screen and (max-width: 1350px) {
-    .programm__container{
-        width: 70%;
-    }
+.ball-programm{
+    position: absolute;
+    top: 38.625rem;
+    left: 50.5rem;
+    width: 11.25rem;
+    z-index: 2;
 }
-
-@media screen and (max-width: 1025px) {
-    .programm__container{
-        width: 80%;
-    }
+.dots-programm{
+    position: absolute;
+    top: 289px;
+    left: 502px;
+    width: 876px;
+    transform: rotate(90deg);
+    opacity: .5;
+    z-index: -1;
+}
+.dots-programm-r{
+    position: absolute;
+    top: 289px;
+    left: 672px;
+    width: 876px;
+    transform: rotate(90deg);
+    opacity: .5;
+    z-index: -1;
+}
+.about-logo__logo-programm-loc {
+    position: absolute;
+    top: -224px;
+    right: 185px;
+    font-size: 12rem;
+    font-weight: 700;
+    font-family: custom_32105;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    color: rgba(255, 255, 255, 0.1);
+}
+.about-logo__logo-colored-programm-loc {
+    font-size: 12rem;
+    font-weight: 700;
+    font-family: custom_32105;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    color: rgba(255, 255, 255, 0.2);
 }
 
 @media screen and (max-width: 599px) {
+    .about-logo__logo-programm-loc {
+        display: none;
+    }
+    .about-logo__logo-colored-programm-loc {
+        display: none;
+    }
     .programm__container{
         width: 90%;
         gap: 6.875rem;
@@ -88,7 +130,7 @@
     }
     .programm__heading {
         width: 64%;
-        margin: 10.0rem 5.75rem;
+        margin: 10rem 0 0 5.75rem;
         font-size: 5.75rem;
     }
     .programm_day{
@@ -109,5 +151,8 @@
     .programm__description {
         margin: 0;
         font-size: 3.375rem;
+    }
+    .ball-programm {
+        display: none;
     }
 }

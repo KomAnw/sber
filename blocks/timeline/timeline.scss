@@ -6,7 +6,7 @@
     z-index: 2;
 }
 .timeline__container {
-    width: 47%;
+    width: 50%;
     margin: 0 auto;
 }
 .timeline__headding {
@@ -62,23 +62,18 @@
     border-top: 2.5rem dashed rgb(42, 50, 58);
     z-index: -1;
 }
-
-@media screen and (max-width: 1350px) {
-    .timeline__container{
-        width: 70%;
-    }
+.sber-timeline{
+    display: none;
 }
 
-@media screen and (max-width: 1025px) {
-    .timeline__container{
-        width: 80%;
-    }
+.timeline-svg{
+    transform: scale(1.9);
+    position: absolute;
+    top: 29rem;
+    left: 62rem;
 }
-
-@media screen and (max-width: 635px) {
-    .timeline__list{
-        grid-template-columns: repeat(3, 1fr);
-    }
+.timeline-svg path{
+    stroke-width: 9.5px !important;
 }
 
 @media screen and (max-width: 599px) {
@@ -87,9 +82,9 @@
     }
     .timeline-svg{
         position: absolute;
-        top: 74.375rem;
-        left:  -46.75rem;
-        transform: rotate(90deg);
+        top: 102.375rem;
+        left: -46.75rem;
+        transform: rotate(90deg) scale(1.6);
     }
     .timeline-svg path{
         stroke-width: .375rem;
@@ -125,6 +120,29 @@
     }
 }
 @media screen and (max-width: 599px) {
+    .sber-timeline {
+        position: absolute;
+        top: 528px;
+        right: -360px;
+        display: flex;
+        transform: rotate(90deg);
+    }
+    .sber-timeline-logo__logo {
+        font-weight: 700;
+        font-family: custom_32105;
+        font-style: normal;
+        color: rgba(255,255,255,.1);
+        font-size: 18rem;
+        margin: 0;
+    }
+    .sber-timeline-logo__logo-colored {
+        font-weight: 700;
+        font-family: custom_32105;
+        font-style: normal;
+        color: rgba(255,255,255,.2);
+        font-size: 18rem;
+        margin-left: 1rem;
+    }
     .timeline {
         padding-top: 6.25rem;
     }

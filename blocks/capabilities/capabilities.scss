@@ -42,24 +42,6 @@
     margin: 0;
 }
 
-@media screen and (max-width: 1350px) {
-    .capabilities-container{
-        width: 70%;
-    }
-}
-
-@media screen and (max-width: 1025px) {
-    .capabilities-container{
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 888px){
-    .capabilities-container__img {
-        width: 37.125rem;
-    }
-}
-
 @media screen and (max-width: 599px) {
     .capabilities-container {
         width: 90%;
