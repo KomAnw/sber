@@ -195,41 +195,41 @@
 }
 .spacer {
     position: absolute;
-    top: 966px;
-    left: 59px;
-    width: 300px;
+    top: 120.75rem;
+    left: 7.375rem;
+    width: 37.5rem;
     z-index: 3;
 }
 .tablet {
     position: absolute;
-    top: 781px;
-    right: 371px;
-    width: 115px;
+    top: 97.625rem;
+    right: 46.375rem;
+    width: 14.375rem;
     z-index: 3;
 }
 .dots_l {
     position: absolute;
-    top: 1003px;
-    left: -162px;
-    width: 875px;
+    top: 125.375rem;
+    left:  -20.25rem;
+    width: 109.375rem;
     transform: rotate(90deg);
     opacity: .5;
     z-index: -1;
 }
 .dots_r {
     position: absolute;
-    top: 1003px;
-    left: 8px;
-    width: 875px;
+    top: 125.375rem;
+    left: 1.0rem;
+    width: 109.375rem;
     transform: rotate(90deg);
     opacity: .5;
     z-index: -1;
 }
 .grid {
     position: absolute;
-    top: 850px;
-    right: -570px;
-    width: 1920px;
+    top: 106.25rem;
+    right:  -71.25rem;
+    width: 240.0rem;
     transform: rotate(90deg);
     opacity: 0.2;
     z-index: -1;
@@ -262,9 +262,9 @@
     .tablet {
         top: initial;
         position: absolute;
-        bottom: 514px;
-        right: 63px;
-        width: 115px;
+        bottom: 64.25rem;
+        right: 7.875rem;
+        width: 14.375rem;
         z-index: 3;
     }
     .ellipse-nominations{

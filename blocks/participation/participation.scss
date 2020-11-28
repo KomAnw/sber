@@ -41,7 +41,7 @@
 }
 .participation-list__element {
     width: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 1.25rem;
 }
 .participation-list__heading {
     margin: 0 0 1.25rem 0;
@@ -172,8 +172,8 @@
     }
     .participation-grid-mobile{
         position: absolute;
-        top: 687px;
-        right: -963px;
+        top: 85.875rem;
+        right:  -120.375rem;
         opacity: 0.2;
         transform: rotate(90deg);
         z-index: -1;

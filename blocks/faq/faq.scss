@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     margin: 0 auto;
-    padding-bottom: 60px;
+    padding-bottom: 7.5rem;
 }
 .faq__container {
     width: 50%;
@@ -18,7 +18,7 @@
 .faq__info {
 }
 .faq__text {
-    margin-bottom: 20px;
+    margin-bottom: 2.5rem;
 }
 .faq__description{
     font-size: 2.5rem;
@@ -34,9 +34,9 @@
 }
 .faq-tablet{
     position: absolute;
-    top: 125px;
-    right: 410px;
-    width: 320px;
+    top: 15.625rem;
+    right: 51.25rem;
+    width: 40.0rem;
     transform: rotate(90deg);
 }
 
@@ -66,15 +66,15 @@
     }
     .faq-tablet {
         position: absolute;
-        top: 542px;
-        right: -105px;
-        width: 320px;
+        top: 67.75rem;
+        right:  -13.125rem;
+        width: 40.0rem;
         transform: rotate(90deg);
     }
     .faq-triangle{
         position: absolute;
-        top: -140px;
-        right: 28px;
+        top:  -17.5rem;
+        right: 3.5rem;
         width: 30rem;
         transform: rotate(-40deg);
     }

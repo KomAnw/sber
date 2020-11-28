@@ -52,7 +52,7 @@
     color: rgb(0, 149, 111);
     font-weight: 400;
     font-family: custom_32105;
-    font-size: 16px;
+    font-size: 2.0rem;
 }
 
 .ellipse-mentors-left {
@@ -143,13 +143,13 @@
     }
     .mentors-dots-mobile {
         position: absolute;
-        top: 866px;
-        right: -788px;
+        top: 108.25rem;
+        right:  -98.5rem;
         transform: rotate(90deg) scale(0.85);
         opacity: .5;
         z-index: -1;
     }
     .mentors-dots-mobile.bottom {
-        top: 2746px;
+        top: 343.25rem;
     }
 }
