@@ -98,6 +98,12 @@
 }
 
 @media screen and (max-width: 599px) {
+    .mentors-dots-mobile {
+        display: block;
+    }
+    .mentors-dots-mobile.bottom {
+        display: block;
+    }
     .mentors__title {
         width: 85%;
         margin-top: 11.25rem;

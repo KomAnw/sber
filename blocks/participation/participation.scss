@@ -132,6 +132,9 @@
 }
 
 @media screen and (max-width: 599px) {
+    .participation-grid-mobile{
+        display: block;
+    }
     .participation::after {
         display: none;
     }

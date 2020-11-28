@@ -108,6 +108,19 @@
 
 
 @media screen and (max-width: 599px) {
+    .info__paragraph-mobile{
+        display: block;
+    }
+    
+    .medium-ball-mobile {
+        display: block;
+    }
+    .small-ball-mobile {
+        display: block;
+    }
+    .ellipse-common-mobile{
+        display: block;
+    }
     .common::after{
         display: none;
     }
