@@ -1,8 +1,10 @@
+import tooltilsCreator from './tooltips';
 import '../blocks/style.scss';
 
 const baseWidth = 600;
 const baseFontSize = 8;
 const scaleRatio = 0.003125;
+
 function scaleResizer(query) {
     const elemsToScale = document.querySelectorAll(query);
     if (elemsToScale.length === 0) {
@@ -18,6 +20,6 @@ function scaleResizer(query) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('loaded');
     scaleResizer('html');
-})
+    tooltilsCreator(baseWidth);
+});
