@@ -31,3 +31,70 @@ html {
     overflow: hidden;
 }
 
+.hidden {
+    visibility: hidden;
+}
+.popup-tooltip, .modal-tooltip {
+    .tooltip-link {
+        text-decoration: none;
+        padding-bottom: 1px;
+        background: linear-gradient(to right, rgb(0, 149, 111) 0%, rgb(0, 149, 111) 100%) 0px 100% / 1px 1px repeat-x;
+        color: rgb(0, 149, 111);
+        &:hover {
+            text-decoration: none;
+            padding-bottom: 1px;
+            background: none;
+            color: rgb(0, 197, 147);
+        }
+    }
+}
+.popup-tooltip {
+    .popup-tooltip--container {
+        width: 300px;
+        border-radius: 5px;
+        background-color: white;
+        line-height: 23px;
+        padding: 16px;
+        font-size: 15px;
+    }
+}
+
+.modal-tooltip {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    .modal-tooltip--container {
+        max-width: 80vw;
+        position: relative;
+        background-color: white;
+        border-radius: 10px;
+        padding: 16px;
+        .modal-tooltip--close {
+            position: absolute;
+            right: -12px;
+            top: -12px;
+
+            font-size: 26px;
+            background-color: #3d3d3d;
+            color: white;
+            border: 0;
+            padding: 0;
+            transform: rotate(45deg);
+            width: 30px;
+            height: 30px;
+            border-radius: 51px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .modal-tooltip--body-wrapper {
+            line-height: 23px;
+            padding: 16px;
+            font-size: 15px;
+        }
+    }
+}
