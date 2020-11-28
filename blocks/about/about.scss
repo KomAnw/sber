@@ -106,6 +106,15 @@
 }
 
 @media screen and (max-width: 599px) {
+    .about-logo-image{
+        display: block;
+    }
+    .about-logo__logo {
+        display: block;
+    }
+    .about-logo__logo-colored {
+        display: block;
+    }
     .description-about {
         width: 90%;
     }
