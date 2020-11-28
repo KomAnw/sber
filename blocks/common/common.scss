@@ -1,0 +1,210 @@
+.common {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 7.5rem;
+    position: relative;
+}
+.common::after{
+    background: no-repeat center 100% url(../../images/common/grid.png);
+    background-size: 200.0rem auto;
+    opacity: 0.6;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+.info {
+    margin: 0 auto;
+}
+.container{
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+.info__img-img {
+    display: block;
+    width: 157.5rem;
+    transform: translate(130px, 0);
+}
+.info__text {
+    position: absolute;
+    top: 11.25rem;
+    left: 22.5rem;
+}
+
+.info__heading-el{
+    margin: 1.125rem 0;
+    color: white;
+    font-size: 7.5rem;
+    font-weight: 600;
+    font-family: custom_32105;
+}
+
+.info__heading-el:last-child{
+    margin-bottom: 6.25rem;
+}
+
+.info__date {
+    margin: 0 0 2.5rem 0;
+    display: flex;
+}
+.info__square {
+    align-self: center;
+    margin-right: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgba(255, 198, 2, 0.9);
+}
+.info__paragraph-date {
+    margin: 0;
+    color: white;
+    font-size: 3.625rem;
+    font-weight: 600;
+    font-family: custom_32105;
+}
+.info__paragraph {
+    width: 29%;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 3.25rem;
+    font-family: custom_32105;
+    font-style: normal;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255,198,2);
+    width: 30.0rem;
+    height: 6.25rem;
+    outline: none;
+    text-decoration: none;
+    margin: 5.0rem auto;
+}
+
+.button span{
+    font-size: 2.25rem;
+    font-family: custom_32105;
+    font-weight: 400;
+    color: black;
+}
+.info__paragraph-mobile{
+    display: none;
+}
+
+.medium-ball-mobile {
+    display: none;
+}
+.small-ball-mobile {
+    display: none;
+}
+.ellipse-common-mobile{
+    display: none;
+}
+
+
+@media screen and (max-width: 599px) {
+    .common::after{
+        display: none;
+    }
+    .info__paragraph {
+        padding: 1.25rem;
+    }
+    .info__paragraph{
+        display: none;
+    }
+    .info__paragraph-mobile {
+        margin-left: 3.75rem;
+        margin-top: 5.0rem;
+        display: block;
+        width: 68%;
+        color: white;
+        font-size: 3.5rem;
+        font-weight: 400;
+        line-height: 4.75rem;
+        font-family: custom_32105;
+        font-style: normal;
+    }
+    .info__img-img {
+        display: block;
+        width: 138%;
+        transform: translate(0, 0);
+        margin-top: 11%;
+    }
+    .info__heading-el{
+        font-weight: 600;
+        font-family: custom_32105;
+        font-style: normal;
+        color: rgba(255, 255, 255, 1);
+        font-size: 6.0rem;
+    }
+    .info__text {
+        position: absolute;
+        top: 8.875rem;
+        left: 3.625rem;
+        width: fit-content;
+    }
+    .info__square {
+        order: 4;
+    }
+    .info__paragraph-date {
+        order: 2;
+    }
+    .info__date {
+        margin: 5.875rem 0 1.25rem 0;
+        display: flex;
+        flex-wrap: wrap;
+        width: 27.75rem;
+    }
+    .info__square {
+        width: 3.125rem;
+        height: 3.125rem;
+    }
+    .info__paragraph-date {
+        font-size: 4.25rem;
+    }
+    .button span {
+        font-family: custom_32105;
+        font-weight: 400;
+        color: #000000cf;
+        font-size: 3.375rem;
+    }
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(255,198,2);
+        width: 40.0rem;
+        height: 8.125rem;
+        outline: none;
+        text-decoration: none;
+        margin: 10.75rem 0 20.0rem 3.75rem;
+    }
+    .medium-ball-mobile {
+        position: absolute;
+        bottom: 70px;
+        left: 25px;
+        width: 100px;
+        z-index: 2;
+    }
+    .small-ball-mobile {
+        position: absolute;
+        bottom: 290px;
+        right: 60px;
+        opacity: 0.6;
+    }
+    .ellipse-common-mobile{
+        position: absolute;
+        top: -56.375rem;
+        right: -27.5rem;
+        width: 138.25rem;
+        height: 179.125rem;
+        border-radius: 100%;
+        border: 0.5rem solid #07e897;
+        z-index: 1;
+    }
+}

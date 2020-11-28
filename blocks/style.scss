@@ -1,0 +1,33 @@
+@import '../src/variables.scss';
+@import '../vendor/normalize.css';
+@import '../fonts/fonts.css';
+@import './header/header.scss';
+@import './common/common.scss';
+@import './short-about/short-about.scss';
+@import './about/about.scss';
+@import './participation/participation.scss';
+@import './nominations/nominations.scss';
+@import './timeline/timeline.scss';
+@import './programm/programm.scss';
+@import './mentors/mentors.scss';
+@import './organizers/organizers.scss';
+@import './partners/partners.scss';
+@import './capabilities/capabilities.scss';
+@import './faq/faq.scss';
+@import './footer/footer.scss';
+
+html {
+    font-size: 8px;
+}
+
+.body {
+    margin: 0 auto;
+    max-width: 240rem;
+    width: 100%;
+    background-color: #343f48;
+}
+
+.main{
+    overflow: hidden;
+}
+

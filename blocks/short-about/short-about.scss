@@ -1,0 +1,113 @@
+.short-about {
+    position: relative;
+    background-color: #2a323a;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 0;
+}
+.description-short {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 11.25rem 0;
+}
+.description-short__heading {
+    margin: 0 0 1.875rem 0;
+    width: 73.75rem;
+    font-size: 5.0rem;
+    font-weight: 400;
+    font-family: custom_32105;
+    font-style: normal;
+    color: rgba(7, 232, 151, 1);
+}
+.description-short-paragraph {
+    width: 100%;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: custom_32105;
+}
+.description-short__list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.description-short__element {
+    width: 60%;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: custom_32105;
+}
+.description-short__prefix {
+    color: yellow;
+}
+
+.ellipse-top{
+    position: absolute;
+    top:  -22.375rem;
+    right:  -62.5rem;
+    width: 121.25rem;
+    height: 124.125rem;
+    border-radius: 100%;
+    border: 0.25rem solid rgb(7,232,151);
+    z-index: 1;
+}
+
+.small-ball {
+    display: block;
+    position: absolute;
+    bottom: 21.25rem;
+    right: 68.625rem;
+    opacity: 0.5;
+    width: 3.75rem;
+}
+.medium-ball {
+    display: block;
+    position: absolute;
+    top: 4.375rem;
+    right: 44.625rem;
+    width: 15.0rem;
+    z-index: 2;
+}
+.square {
+    display: block;
+    position: absolute;
+    bottom: 3.75rem;
+    right: 51.75rem;
+    transform: rotate(45deg);
+    width: 37.5rem;
+}
+
+@media screen and (max-width: 599px) {
+    .ellipse-top{
+        display: none;
+    }
+    .description-short {
+        width: 90%;
+        padding: 7.0rem 0;
+    }
+    .description-short__heading {
+        margin: 0 0 1.875rem 0;
+        font-size: 5.875rem;
+    }
+    .description-short-paragraph {
+        color: white;
+        font-size: 3.625rem;
+    }
+    .description-short__element {
+        font-size: 3.625rem;
+    }
+    .small-ball {
+        display: none;
+    }
+    .medium-ball {
+        display: none;
+    }
+    .square {
+        display: none;
+    }
+}

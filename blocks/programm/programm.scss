@@ -1,0 +1,158 @@
+.programm {
+    position: relative;
+    width: 100%;
+    margin: 16.5rem auto 0 auto;
+}
+
+.programm__container {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+.programm__heading {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    font-size: 5.0rem;
+    font-weight: 400;
+    font-family: custom_32105;
+    font-style: normal;
+    color: rgba(7, 232, 151, 1);
+    padding-bottom: 60px;
+}
+.programm_day {
+    padding: 3.75rem;
+    background-color: rgb(42 50 58);
+    border-radius: 1.0rem;
+}
+.programm__data {
+    width: 85%;
+    display: flex;
+    align-items: center;
+}
+.programm__square {
+    width: 2.75rem;
+    height: 2.75rem;
+    background-color: rgba(7, 232, 151, 0.9);;
+    margin-right: 2.5rem;
+}
+.programm__title {
+    white-space: nowrap;
+    margin: 0;
+    font-size: 3.75rem;
+    font-weight: 400;
+    font-family: custom_32105;
+    font-style: normal;
+    color: rgba(255, 255, 255, 1);
+}
+.programm__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 3.75rem;
+}
+.programm__time {
+    margin: 0;
+    font-size: 2.25rem;
+    font-weight: 400;
+    font-family: custom_32105;
+    font-style: normal;
+    color: rgba(255, 198, 2, 1);
+}
+.programm__description {
+    margin: 0;
+    font-size: 2.25rem;
+    font-weight: 400;
+    font-family: custom_32105;
+    font-style: normal;
+    color: white;
+}
+.ball-programm{
+    position: absolute;
+    top: 38.625rem;
+    left: 50.5rem;
+    width: 11.25rem;
+    z-index: 2;
+}
+.dots-programm{
+    position: absolute;
+    top: 289px;
+    left: 502px;
+    width: 876px;
+    transform: rotate(90deg);
+    opacity: .5;
+    z-index: -1;
+}
+.dots-programm-r{
+    position: absolute;
+    top: 289px;
+    left: 672px;
+    width: 876px;
+    transform: rotate(90deg);
+    opacity: .5;
+    z-index: -1;
+}
+.about-logo__logo-programm-loc {
+    position: absolute;
+    top: -224px;
+    right: 185px;
+    font-size: 12rem;
+    font-weight: 700;
+    font-family: custom_32105;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    color: rgba(255, 255, 255, 0.1);
+}
+.about-logo__logo-colored-programm-loc {
+    font-size: 12rem;
+    font-weight: 700;
+    font-family: custom_32105;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+@media screen and (max-width: 599px) {
+    .about-logo__logo-programm-loc {
+        display: none;
+    }
+    .about-logo__logo-colored-programm-loc {
+        display: none;
+    }
+    .programm__container{
+        width: 90%;
+        gap: 6.875rem;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    .programm__heading {
+        width: 64%;
+        margin: 10rem 0 0 5.75rem;
+        font-size: 5.75rem;
+    }
+    .programm_day{
+        transform: translate( -2.5rem, 0);
+        width: 75%;
+    }
+    .programm__title {
+        font-size: 5.0rem;
+    }
+    .programm__square {
+        width: 5.0rem;
+        height: 5.0rem;
+    }
+    .programm__time {
+        margin: 0;
+        font-size: 3.375rem;
+    }
+    .programm__description {
+        margin: 0;
+        font-size: 3.375rem;
+    }
+    .ball-programm {
+        display: none;
+    }
+}
