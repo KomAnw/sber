@@ -1,11 +1,16 @@
 import { createPopperLite as createPopper, offset } from "@popperjs/core";
 
 const popupOpts = [{
+    // #id of the icon
     selector: "kubernetes-popup",
+    // innerHtml of the popup / modal
     html: `Сервис для автоматизации развёртывания, масштабирования и управления приложениями на основе Kubernetes. <a class="tooltip-link" rel="noopener noreferrer" target="_self" href="https://sbercloud.ru/ru/products/cloud-container-engine">Подробнее</a>`
 }, {
     selector: "functional-graph-popup",
     html: `Позволяет размещать и запускать код (функцию) в бессерверной среде. Запуск функции происходит на определенный пользователем триггер. <a class="tooltip-link" rel="noopener noreferrer" target="_self" href="https://sbercloud.ru/ru/products/functiongraph-serverless">Подробнее</a></span>`
+}, {
+    selector: 'api-gateway-popup',
+    html: `Высокопроизводительный, полностью управляемый хостинг API, который помогает и упрощает публикацию, обслуживание, мониторинг, защиту и использование API в любых масштабах. В пару кликов вы можете внедрить системную интеграцию и значительно расширить функционал своего сервиса. <a class="tooltip-link" rel="noopener noreferrer" target="_self" href="https://sbercloud.ru/ru/products/api-gateway">Подробнее</a>`
 }];
 
 function createTooltip() {
