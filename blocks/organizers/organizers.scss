@@ -3,7 +3,6 @@
     margin: 0 auto;
 }
 .links {
-    width: 50%;
     margin: 0 auto;
 }
 .links__heading {
@@ -31,7 +30,7 @@
     width: 31.25rem;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 630px) {
     .links {
         width: 90%;
     }

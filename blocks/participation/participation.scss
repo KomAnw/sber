@@ -19,7 +19,6 @@
 }
 
 .participation-container {
-    width: 50%;
     margin: 0 auto;
 }
 .participation-container__heading {
@@ -131,7 +130,7 @@
     display: none;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 630px) {
     .participation-grid-mobile{
         display: block;
     }

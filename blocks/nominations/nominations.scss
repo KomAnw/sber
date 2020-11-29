@@ -4,10 +4,11 @@
     margin: 0 auto;
 }
 .rows {
-    width: 55%;
     margin: 0 auto;
 }
 .rows__heading {
+    position: relative;
+    z-index: 2;
     padding: 50.0rem 0 8.75rem 6.25rem;
     font-size: 5.0rem;
     font-weight: 400;
@@ -246,7 +247,7 @@
     z-index: 1;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 630px) {
     .grid{
         display: none;
     }

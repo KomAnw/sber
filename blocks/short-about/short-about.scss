@@ -6,7 +6,6 @@
     z-index: 0;
 }
 .description-short {
-    width: 50%;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -82,7 +81,7 @@
     width: 37.5rem;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 630px) {
     .ellipse-top{
         display: none;
     }

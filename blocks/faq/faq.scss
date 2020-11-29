@@ -5,7 +5,6 @@
     padding-bottom: 7.5rem;
 }
 .faq__container {
-    width: 50%;
     margin: 0 auto;
 }
 .faq__heading {
@@ -44,7 +43,7 @@
     display: none;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 630px) {
     .faq__container {
         width: 83%;
     }

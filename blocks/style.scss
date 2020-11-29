@@ -27,7 +27,7 @@ html {
     background-color: #343f48;
 }
 
-.main{
+.main {
     overflow: hidden;
 }
 
@@ -96,5 +96,13 @@ html {
             padding: 16px;
             font-size: 15px;
         }
+    }
+}
+
+@media screen and (min-width: 631px) {
+    .container-wrapper {
+        min-width: 600px;
+        width: 50%;
+        margin: auto;
     }
 }

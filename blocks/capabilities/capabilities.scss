@@ -2,6 +2,7 @@
     width: 100%;
     margin: 0 auto;
 }
+
 .capabilities-container {
     width: 55%;
     margin: 0 auto;
@@ -42,7 +43,7 @@
     margin: 0;
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 630px) {
     .capabilities-container {
         width: 90%;
         flex-wrap: wrap;
