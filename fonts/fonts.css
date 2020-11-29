@@ -2,19 +2,19 @@
     font-family: 'custom_32105';
     font-style:  normal;
     font-weight: 300;
-    src: url("../fonts/5f9024b8585cc600acca022d_n3.woff") format('woff');
+    src: url("./5f9024b8585cc600acca022d_n3.woff") format('woff');
 }
 
 @font-face {
     font-family: 'custom_32105';
     font-style:  normal;
     font-weight: 400;
-    src: url("../fonts/5f9024b8585cc600acca022d_n4.woff") format('woff');
+    src: url("./5f9024b8585cc600acca022d_n4.woff") format('woff');
 }
 
 @font-face {
     font-family: 'custom_32105';
     font-style:  normal;
     font-weight: 600;
-    src: url("../fonts/5f9024b8585cc600acca022d_n6.woff") format('woff');
+    src: url("./5f9024b8585cc600acca022d_n6.woff") format('woff');
 }

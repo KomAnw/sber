@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack serve",
     "build": "npx webpack --config webpack.config.js",
-    "deploy": "npm run build && node ./deploy.js",
+    "deploy": "npm run build -- --env publicPath=/sber/ && node ./deploy.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
