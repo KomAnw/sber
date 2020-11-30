@@ -82,6 +82,86 @@
     width: 37.5rem;
 }
 
+@media screen and (max-width: 975px) {
+    .description-wrapper{
+        position: absolute;
+        top: 0;
+        right: -18%;
+    }
+    .description-short {
+        width: 75%;
+    }
+    .description-short-paragraph {
+        font-size: 3rem;
+    }
+    .description-short__element {
+        font-size: 3rem;
+    }
+    .small-ball {
+        display: block;
+        position: absolute;
+        bottom: -44.75rem;
+        right: 68.625rem;
+        opacity: .5;
+        width: 3.75rem;
+    }
+    .square {
+        display: block;
+        position: absolute;
+        bottom: -62.25rem;
+        right: 51.75rem;
+        transform: rotate(45deg);
+        width: 37.5rem;
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .description-wrapper{
+        position: absolute;
+        right: -20%;
+        top: 0;
+    }
+    .small-ball {
+        bottom: -41.75rem;
+    }
+    .square {
+        bottom: -60.25rem;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .description-wrapper {
+        position: absolute;
+        top: 0;
+        right: -27%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .square{
+        display: none;
+    }
+    .small-ball{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .description-wrapper {
+        position: absolute;
+        top: 0;
+        right: -35%;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .description-wrapper {
+        position: absolute;
+        top: 0;
+        right: -297px;
+    }
+}
+
 @media screen and (max-width: 599px) {
     .ellipse-top{
         display: none;

@@ -31,6 +31,29 @@
     width: 31.25rem;
 }
 
+@media screen and (max-width: 975px) {
+    .links__heading {
+        font-size: 6rem;
+    }
+    .links {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .links {
+        width: 90%;
+    }
+    .links__list {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    .links__heading {
+        margin-left: 11%;
+    }
+}
+
+
 @media screen and (max-width: 599px) {
     .links {
         width: 90%;

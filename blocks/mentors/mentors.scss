@@ -27,7 +27,6 @@
 }
 .mentors__img {
     width: 21.25rem;
-    height: 21.25rem;
     margin-right: 5.0rem;
 }
 .mentors__text {
@@ -97,6 +96,95 @@
     display: none;
 }
 
+@media screen and (max-width: 975px) {
+    .ellipse-mentors-right {
+        position: absolute;
+        top: 82.625rem;
+        right: -101.5rem;
+        width: 121.25rem;
+        height: 124.125rem;
+        border-radius: 100%;
+        border: .25rem solid #07e897;
+        z-index: 1;
+    }
+    .triangle {
+        position: absolute;
+        top: 131.625rem;
+        right: 11rem;
+        width: 22.25rem;
+        z-index: 2;
+        transform: rotate(-35deg);
+    }
+    .mentors__title {
+        font-size: 6rem;
+    }
+    .ellipse-mentors-left {
+        left: -77.5rem;
+    }
+    .ball-mentors {
+        left: 4rem;
+    }
+    .mentors__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .mentors__name {
+        font-size: 3.5rem;
+    }
+    .mentors__description {
+        font-size: 3rem;
+    }
+    .mentors__link {
+        font-size: 3rem;
+    }
+    .mentors__img {
+        width: 30rem;
+        height: initial;
+    }
+    .mentors__container {
+        width: 63%;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .triangle {
+        position: absolute;
+        top: 24.625rem;
+        right: 9rem;
+    }
+    .ellipse-mentors-right {
+        position: absolute;
+        top: -26.375rem;
+        right: -101.5rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .mentors__title {
+        width: 60%;
+    }
+    .ellipse-mentors-right {
+        position: absolute;
+        top: 82.625rem;
+        right: -103.5rem;
+        width: 121.25rem;
+        height: 124.125rem;
+        border-radius: 100%;
+        border: .25rem solid #07e897;
+        z-index: 1;
+    }
+    .triangle {
+        position: absolute;
+        top: 131.625rem;
+        right: 8rem;
+        width: 22.25rem;
+        z-index: 2;
+        transform: rotate(-35deg);
+    }
+    .mentors__container {
+        width: 80%;
+    }
+}
+
 @media screen and (max-width: 599px) {
     .mentors-dots-mobile {
         display: block;
@@ -119,7 +207,6 @@
     }
     .mentors__img {
         width: 36.25rem;
-        height: 36.25rem;
         margin-bottom: 5.0rem;
     }
     .mentors__name {

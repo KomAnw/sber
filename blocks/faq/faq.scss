@@ -44,7 +44,51 @@
     display: none;
 }
 
+@media screen and (max-width: 1920px) {
+    .faq-tablet {
+        position: absolute;
+        top: 15.625rem;
+        right: 3.25rem;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .faq__container {
+        width: 90%;
+    }
+    .faq-tablet {
+        position: absolute;
+        top: 15.625rem;
+        right: 5.25rem;
+        width: 40rem;
+        transform: rotate(90deg);
+    }
+    .faq__description {
+        font-size: 3.5rem;
+    }
+}
+@media screen and (min-width: 720px) and (max-width: 975px) {
+    .faq-tablet {
+        position: absolute;
+        top: 31.625rem;
+        right: 5.25rem;
+        width: 24rem;
+        transform: rotate(90deg);
+    }
+}
+@media screen and (max-width: 720px) {
+    .faq-tablet {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 599px) {
+    .faq-triangle {
+        display: initial;
+    }
+    .faq-tablet {
+        display: initial;
+    }
     .faq__container {
         width: 83%;
     }

@@ -131,6 +131,42 @@
     display: none;
 }
 
+@media screen and (max-width: 975px) {
+    .participation-container {
+        width: 75%;
+    }.participation-list__heading {
+        font-size: 3.5rem;
+    }
+    .participation-list__paragraph {
+        font-size: 3rem;
+    }
+    .participation-container__heading {
+        margin-bottom: 10rem;
+        font-size: 6rem;
+    }
+    .ellipse-participation{
+        left: -84.625rem;
+    }
+    .small-ball__participation {
+        position: absolute;
+        top: -63.75rem;
+        left: 0.75rem;
+    }
+    .participation-logo {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .participation-logo {
+        width: 100%;
+    }
+    .participation-logo__logo-colored,
+    .participation-logo__logo {
+        font-size: 10.5rem;
+    }
+}
+
 @media screen and (max-width: 599px) {
     .participation-grid-mobile{
         display: block;

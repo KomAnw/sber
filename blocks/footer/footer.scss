@@ -34,6 +34,20 @@
     width: 31.25rem;
 }
 
+@media screen and (max-width: 975px) {
+    .footer__container {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .footer__links-el {
+        font-size: 2.7rem;
+    }
+    .footer__social-img {
+        margin-right: 1.25rem;
+        height: 3rem;
+    }
+}
+
 @media screen and (max-width: 599px) {
     .footer {
         padding: 6.25rem 0;

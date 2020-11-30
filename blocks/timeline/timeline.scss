@@ -76,6 +76,33 @@
     stroke-width: 9.5px !important;
 }
 
+@media screen and (max-width: 1340px) {
+    .timeline-svg {
+        left: 5%;
+    }
+}
+@media screen and (max-width: 975px) {
+    .timeline__headding {
+        margin: 0;
+        margin-bottom: 7.5rem;
+        font-size: 6rem;
+    }
+    .timeline__container {
+        width: 90%;
+    }
+    .timeline__date {
+        margin: 0 0 1.25rem 0;
+        font-size: 3.5rem;
+    }.timeline__description {
+        margin: 0;
+        margin-left: .625rem;
+        font-size: 2.875rem;
+    }
+    .timeline-svg {
+        left: initial;
+    }
+}
+
 @media screen and (max-width: 599px) {
     .timeline{
         padding-top: 10.625rem;

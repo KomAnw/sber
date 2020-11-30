@@ -115,6 +115,37 @@
     color: rgba(255, 255, 255, 0.2);
 }
 
+@media screen and (max-width: 975px) {
+    .programm__heading {
+        font-size: 6rem;
+    }
+    .ball-programm{
+        left: -3.5rem;
+    }
+    .programm__container {
+        width: 90%;
+    }
+    .programm__description {
+        font-size: 3rem;
+    }
+    .programm__time {
+        font-size: 3.25rem;
+    }
+    .programm__title {
+        font-size: 4.75rem;
+    }
+    .programm__heading {
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width: 905px) {
+    .programm__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media screen and (max-width: 599px) {
     .about-logo__logo-programm-loc {
         display: none;

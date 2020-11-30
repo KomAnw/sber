@@ -26,6 +26,10 @@
     z-index: -1;
 }
 
+@media screen and (max-width: 975px) {
+    
+}
+
 @media screen and (max-width: 599px) {
     .links__el.tw{
         transform: translate(70px, 6.25rem);

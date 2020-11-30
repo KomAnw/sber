@@ -246,7 +246,103 @@
     z-index: 1;
 }
 
+@media screen and (max-width: 1920px) {
+    .tablet {
+        position: absolute;
+        top: 97.625rem;
+        right: 21.375rem;
+    }
+    .ellipse-nominations {
+        position: absolute;
+        top: 67.625rem;
+        right: -89.5rem;
+    }
+    .spacer {
+        position: absolute;
+        top: 120.75rem;
+        left: -2.625rem;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .image-wrapper {
+        position: absolute;
+        width: 100%;
+        top: 23px;
+        left: 279px;
+    }
+    .tablet {
+        right: -0.625rem;
+    }
+    .ellipse-nominations {
+        right: -109.5rem;
+    }
+    .spacer{
+        display: none;
+    }
+    .rows {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .rows__heading {
+        padding: 13rem 0 36.75rem 6.25rem;
+        font-size: 6rem;
+    }
+   .track__heading {
+    margin: 0 0 1.25rem 0;
+    font-size: 6rem;
+   }
+   .special__text {
+    font-size: 3.0rem;
+   }
+   .track__paragraph {
+    font-size: 3rem;
+   }.track__el-headding {
+    margin: 0;
+    font-size: 3.2rem;
+   }.track__el-paragraph {
+    margin: 0;
+    font-size: 3rem;
+   }
+   .other__text {
+    font-size: 2.5rem;
+    font-size: 3rem;
+   }
+}
+
+@media screen and (min-width: 599px) and (max-width: 760px) {
+    .image-wrapper {
+        position: absolute;
+        width: 100%;
+        top: 23px;
+        left: 331px;
+    }
+    .track__summ {
+        margin: 0;
+        font-size: 5.5rem;
+    }
+    .rows {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .ellipse-nominations {
+        display: none;
+    }
+    .tablet {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 599px) {
+    .tablet {
+       display: block;
+    }
+    .image-wrapper {
+        position: absolute;
+        width: 100%;
+        top: 19px;
+        left: 10px;
+    }
     .grid{
         display: none;
     }
