@@ -1,0 +1,207 @@
+.ready {
+    padding-top: 10rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.ready__container {
+    width: 58%;
+    margin: 0 auto;
+}
+.ready__header {
+    font-size: 5rem;
+    font-weight: 400;
+    font-family: custom_32105;
+    font-style: normal;
+    color: rgba(7, 232, 151, 1);
+}
+.webinars {
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: custom_32105;
+    color: white;
+}
+.card__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card__element {
+    display: grid;
+    grid-template-rows: 19rem 11rem 5rem 19rem 12rem;
+    justify-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 3rem 3rem 0 3rem;
+}
+.card__img {
+    width: 150px;
+}
+.card__title-container {
+    align-self: center;
+}
+.card__name,
+.card__prof {
+    margin: 0;
+    font-family: custom_32105;
+    color: rgba(255, 255, 255, 1);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+}
+.card__name{
+    margin-top: 1rem;
+}
+.card__date {
+    align-self: center;
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: custom_32105;
+    font-style: normal;
+    color: rgba(7, 232, 151, 1);
+}
+.card__text-container {
+    justify-self: flex-start;
+}
+.card__theme {
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: custom_32105;
+    font-style: normal;
+    color: rgba(255, 198, 2, 1);
+    margin: 0;
+    margin-bottom: 2rem;
+}
+.card__text {
+    font-weight: 400;
+    font-family: custom_32105;
+    font-style: normal;
+    color: rgba(255, 255, 255, 1);
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 0.3rem;
+}
+
+.button-registr {
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1617px) {
+    .card__element {
+        grid-template-rows: 20rem 12rem 5rem 23rem 12rem;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .card__element {
+        grid-template-rows: 22rem 12rem 5rem 23rem 12rem;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .card__element {
+        grid-template-rows: 25rem 12rem 5rem 23rem 12rem;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .ready__container {
+        width: 90%;
+    }
+    .card__name, 
+    .card__prof {
+        
+        font-size: 2.5rem;
+    }
+    .card__element {
+        grid-template-rows: 25rem 14rem 6rem 21rem 14rem;
+    }
+    .card__date {
+        font-size: 3rem;
+    }
+    .card__theme {
+        font-size: 3rem;
+    }
+    .card__text {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .card__element {
+        grid-template-rows: 25rem 14rem 6rem 26rem 14rem;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .card__list {
+        grid-template-columns: repeat(2, 1fr);
+    }.card__element {
+        grid-template-rows: 25rem 10rem 8rem 20rem 14rem;
+    }
+}
+
+@media screen and (max-width: 621px) {
+    .card__element {
+        grid-template-rows: 25rem 12rem 8rem 25rem 14rem;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .card__list{
+        gap: 4rem;
+    }
+    .ready__header {
+        font-size: 6rem;
+    }.webinars {
+        font-size: 4.5rem;
+    }
+    .card__element {
+        padding: 8rem 5rem 0 5rem;
+    }
+    .card__img {
+        width: 28rem;
+    }
+    .ready__header,
+    .webinars {
+        margin-left: 3rem;
+    }
+    .card__name{
+        text-align: end;
+    }
+    .card__name, 
+    .card__prof {
+        font-weight: 400;
+        font-size: 3.5rem;
+    }
+    .ready__container {
+        width: 100%;
+    }
+    .card__list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card__date {
+        font-size: 4rem;
+        justify-self: flex-start;
+    }
+    .card__theme {
+        font-size: 4rem;
+    }
+    .card__text {
+        font-size: 3rem;
+    }
+    .card__element {
+        grid-template-rows: 28rem 18rem 8rem 25rem 14rem;
+    }
+    #petrP{
+        width: 100%;
+        text-align: end;
+        font-size: 3.43rem;
+    }
+}
