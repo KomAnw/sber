@@ -6,7 +6,6 @@
     z-index: 2;
 }
 .timeline__container {
-    width: 50%;
     margin: 0 auto;
 }
 .timeline__headding {
@@ -70,7 +69,6 @@
     transform: scale(1.9);
     position: absolute;
     top: 29rem;
-    left: 62rem;
 }
 .timeline-svg path{
     stroke-width: 9.5px !important;
@@ -146,7 +144,7 @@
         width: 50%;
     }
 }
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 630px) {
     .sber-timeline {
         position: absolute;
         top: 66.0rem;

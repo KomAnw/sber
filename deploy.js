@@ -4,5 +4,9 @@ ghpages.publish('dist', {
     branch: 'gh-pages',
     repo: 'https://github.com/KomAnw/sber.git'
 }, function(err) {
-    console.error(err);
+    if (err) {
+        console.error(err);
+    } else {
+        console.log('Success');
+    }
 });

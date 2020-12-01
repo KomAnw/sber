@@ -6,7 +6,6 @@
 }
 .description-about {
     margin: 8.75rem auto 0 auto;
-    width: 50%;
 }
 .description-about-main__heading {
     font-family: custom_32105;
@@ -37,7 +36,6 @@
     color: rgb(0, 149, 111);
 }
 .description-about-other {
-    width: 50%;
     margin: 2.5rem auto;
 }
 .description-about-other__heading {
@@ -58,7 +56,6 @@
     list-style: none;
     margin: 0 auto;
     flex-wrap: wrap;
-    width: 50%;
 }
 .description-about-list__element {
     display: flex;
@@ -157,6 +154,7 @@
 }
 
 @media screen and (max-width: 599px) {
+
     .about-logo-image{
         display: block;
     }

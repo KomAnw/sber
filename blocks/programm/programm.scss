@@ -5,14 +5,12 @@
 }
 
 .programm__container {
-    width: 50%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
 }
 .programm__heading {
-    width: 50%;
     margin: 0 auto 0 auto;
     font-size: 5.0rem;
     font-weight: 400;

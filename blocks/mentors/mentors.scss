@@ -4,7 +4,6 @@
     margin: 0 auto;
 }
 .mentors__title{
-    width: 50%;
     margin: 0 auto;
     margin-top: 12.5rem;
     font-size: 5.0rem;
@@ -14,7 +13,6 @@
     color: rgba(7, 232, 151, 1);
 }
 .mentors__container {
-    width: 50%;
     margin: 8.75rem auto 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -28,8 +26,6 @@
 .mentors__img {
     width: 21.25rem;
     margin-right: 5.0rem;
-}
-.mentors__text {
 }
 .mentors__name {
     margin: 0;
@@ -95,6 +91,7 @@
 .mentors-dots-mobile.bottom {
     display: none;
 }
+
 
 @media screen and (max-width: 975px) {
     .ellipse-mentors-right {
