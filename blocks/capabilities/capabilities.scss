@@ -43,7 +43,21 @@
     margin: 0;
 }
 
-@media screen and (max-width: 630px) {
+
+@media screen and (max-width: 975px) {
+    .capabilities-container__title {
+        margin: 0 0 5rem 0;
+        font-size: 6rem;
+    }
+    .capabilities-container {
+        width: 90%;
+    }
+    .capabilities-container__paragraph {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 599px) {
     .capabilities-container {
         width: 90%;
         flex-wrap: wrap;

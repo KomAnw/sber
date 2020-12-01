@@ -106,6 +106,103 @@
     display: none;
 }
 
+@media screen and (min-width: 599px) and (max-width: 975px) {
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffc602;
+        width: 38rem;
+        height: 8.25rem;
+    }
+    .button span {
+        font-size: 3.25rem;
+    }
+    .info__img-img {
+        width: 127%;
+        transform: translate(0, 0);
+    }
+    .info__text {
+        top: 11%;
+        left: 5%;
+    }
+    .info__paragraph {
+        width: 33%;
+        color: #fff;
+        font-size: 3.5rem;
+        font-weight: 400;
+        line-height: 4.25rem;
+        font-family: custom_32105;
+        font-style: normal;
+    }
+    .info__paragraph-date {
+        margin: 0;
+        color: #fff;
+        font-size: 5.625rem;
+    }
+    .info__square {
+        align-self: center;
+        margin-right: 1.25rem;
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .info__heading-el {
+        margin: 1.125rem 0;
+        color: #fff;
+        font-size: 8.5rem;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px) {
+    .info__paragraph {
+        font-size: 3rem;
+    }
+    .info__paragraph-date {
+        font-size: 5rem;
+    }
+    .info__heading-el {
+        font-size: 7.5rem;
+    }
+    .info__square {
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+}
+
+@media screen and (min-width: 599px) and (max-width: 800px) {
+    .info__text {
+        top: 14%;
+    }
+    .info__paragraph-mobile{
+        margin-left: 3.75rem;
+        margin-top: 5rem;
+        display: block;
+        width: 68%;
+        color: #fff;
+        font-size: 3.5rem;
+        font-weight: 400;
+        line-height: 4.75rem;
+        font-family: custom_32105;
+        font-style: normal;
+    }
+    .info__paragraph{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 599px) and (max-width: 700px) {
+    .info__paragraph-date {
+        margin: 0;
+        color: #fff;
+        font-size: 4.625rem;
+    }
+    .info__heading-el {
+        margin: 1.125rem 0;
+        color: #fff;
+        font-size: 7.5rem;
+    }
+}
+
 
 @media screen and (max-width: 630px) {
     .info__paragraph-mobile{
@@ -199,7 +296,7 @@
     }
     .medium-ball-mobile {
         position: absolute;
-        bottom: 8.75rem;
+        bottom: 6.75rem;
         left: 3.125rem;
         width: 12.5rem;
         z-index: 2;
