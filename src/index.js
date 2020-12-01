@@ -32,3 +32,17 @@ document.addEventListener('DOMContentLoaded', () => {
     scaleResizer('html');
     tooltilsCreator(baseWidth);
 });
+
+window.addEventListener("load", function(){ 
+    var links = document.getElementsByTagName('a');
+
+  Array.prototype.forEach.call(links, function (link) {
+      if (link.href.indexOf("apply") > 0 && link.href.indexOf("#") < 0 && lengthink.href.indexOf("docs") < 0) {
+          link.href += location.search;
+            link.firstElementChild.onclick = function() {
+                dataLayer.push({'event':'registration_main'})
+          }
+      }
+  });
+
+})

@@ -28,27 +28,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta name="twitter:title" content="SberCloud.Advanced Hacking - масштабный онлайн-хакатон для CTO стартапов и их команд">
     <meta name="twitter:description" content="Прокачай свой проект на стеке SberCloud.Advanced при поддержке менторов от SberCloud, Huawei, Сбер500">
     <meta name="twitter:image" content="https://ia.wampi.ru/2020/11/30/TG-big.png">
-
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <title>SberCloud.Advanced Hacking - масштабный онлайн-хакатон для CTO стартапов и их команд</title>
 </head>
 
-<script>
-  window.addEventListener("load", function(){ 
-  	var links = document.getElementsByTagName('a');
-
-	Array.prototype.forEach.call(links, function (link) {
-    	if (link.href.indexOf("apply") > 0 && link.href.indexOf("#") < 0 && lengthink.href.indexOf("docs") < 0) {
-    		link.href += location.search;
-          	link.firstElementChild.onclick = function() {
-              	dataLayer.push({'event':'registration_main'})
-            }
-    	}
-    });
-
-  })
-</script>
-
 <body class="body auto-scale-width">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5J99FQK"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     <header class="header">
         <picture class="logo">
             <img src="../images/header/sber.png" alt="" class="logo__img"/>
@@ -606,7 +594,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <p class="capabilities-container__paragraph">SberCloud — облачная экосистемная платформа Сбера. Компания предлагает широкую линейку инфраструктурных и платформенных облачных решений, а также инструменты для работы с искусственным интеллектом, базирующиеся на ресурсах суперкомпьютера «Кристофари» — самого мощного вычислительного кластера России.</p>
                         <p class="capabilities-container__paragraph">Информационно-технологические платформы и услуги SberCloud являются основой цифровой экосистемы Сбера, а также предоставляются внешним клиентам — компаниям и государственным организациям.</p>
                     </div>
-                    <a href="https://sbercloud.ru/ru/career" class="button bottom"><span>Присоединиться</span></a>
+                    <a id="joinButton" href="https://sbercloud.ru/ru/career" class="button bottom"><span>Присоединиться</span></a>
                 </div>
             </div>
         </section>
@@ -692,9 +680,4 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
     </footer>
 </body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5J99FQK"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
 </html>
