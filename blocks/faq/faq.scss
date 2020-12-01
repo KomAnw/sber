@@ -18,6 +18,7 @@
 .faq__info {
 }
 .faq__text {
+    display: flex;
     margin-bottom: 2.5rem;
 }
 .faq__description{
@@ -28,6 +29,7 @@
     color: white;
 }
 .faq__img {
+    margin-left: 2rem;
     cursor: pointer;
     width: 3.125rem;
     height: 3.125rem;
@@ -37,7 +39,6 @@
     top: 15.625rem;
     right: 51.25rem;
     width: 40.0rem;
-    transform: rotate(90deg);
 }
 
 .faq-triangle{
@@ -61,7 +62,6 @@
         top: 15.625rem;
         right: 5.25rem;
         width: 40rem;
-        transform: rotate(90deg);
     }
     .faq__description {
         font-size: 3.5rem;
@@ -73,7 +73,6 @@
         top: 31.625rem;
         right: 5.25rem;
         width: 24rem;
-        transform: rotate(90deg);
     }
 }
 @media screen and (max-width: 720px) {
@@ -113,7 +112,6 @@
         top: 67.75rem;
         right:  -13.125rem;
         width: 40.0rem;
-        transform: rotate(90deg);
     }
     .faq-triangle{
         position: absolute;

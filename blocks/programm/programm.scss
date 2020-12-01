@@ -115,6 +115,18 @@
     color: rgba(255, 255, 255, 0.2);
 }
 
+@media screen and (max-width: 1980px) {
+    .ball-programm{
+        left: 22%;
+    }
+}
+
+@media screen and (max-width: 1625px) {
+    .ball-programm{
+        left: 20.5%;
+    }
+}
+
 @media screen and (max-width: 975px) {
     .programm__heading {
         font-size: 6rem;
