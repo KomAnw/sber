@@ -42,6 +42,15 @@
     margin: 0;
 }
 
+@media screen and (min-width: 975px) and (max-width: 1700px) {
+    .capabilities-container {
+        width: 60%;
+    }
+    .capabilities-container__text {
+        width: 69rem;
+    }
+}
+
 @media screen and (max-width: 975px) {
     .capabilities-container__title {
         margin: 0 0 5rem 0;
@@ -52,6 +61,19 @@
     }
     .capabilities-container__paragraph {
         font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .capabilities-container {
+        flex-wrap: wrap;
+    }
+    .capabilities-container__text {
+        margin: 0 0 2.5rem 0;
+        min-width: 65rem;
+    }
+    #joinButton{
+        margin: 0 auto;
     }
 }
 

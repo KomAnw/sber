@@ -30,6 +30,8 @@
     margin-right: 5.0rem;
 }
 .mentors__text {
+    display: grid;
+    grid-template-rows: 3rem 3rem 14rem;
 }
 .mentors__name {
     margin: 0;
