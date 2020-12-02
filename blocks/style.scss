@@ -70,6 +70,7 @@ html {
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
     .modal-tooltip--container {
         max-width: 80vw;
         position: relative;
@@ -98,6 +99,7 @@ html {
             padding: 16px;
             font-size: 22px;
             font-family: custom_32105;
+            font-weight: 300;
         }
     }
 }

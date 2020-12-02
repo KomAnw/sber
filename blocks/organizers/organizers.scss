@@ -71,7 +71,7 @@
         justify-content: flex-start;
     }
     .links__el {
-        width: 40%;
+        width: initial;
     }
     .sber {
         width: 70%;
@@ -81,5 +81,6 @@
     }
     .links__img {
         width: 28.75rem;
+        margin-right: 3rem;
     }
 }

@@ -13,16 +13,16 @@ const popupOpts = [{
     html: `Высокопроизводительный, полностью управляемый хостинг API, который помогает и упрощает публикацию, обслуживание, мониторинг, защиту и использование API в любых масштабах. В пару кликов вы можете внедрить системную интеграцию и значительно расширить функционал своего сервиса. <a class="tooltip-link" rel="noopener noreferrer" target="_self" href="https://sbercloud.ru/ru/products/api-gateway">Подробнее</a>`
 }, {
     selector: "graph-engine-popup",
-    html: `Первая в Китае коммерческая автономная распределенная система графов с независимыми правами на интеллектуальную собственность. <a class="link-1 external-link" rel="noopener noreferrer" target="_self" href="https://sbercloud.ru/ru/products/graph-engine-service-ges">Подробнее</a>`
+    html: `Первая в Китае коммерческая автономная распределенная система графов с независимыми правами на интеллектуальную собственность. <a class="tooltip-link" rel="noopener noreferrer" target="_self" href="https://sbercloud.ru/ru/products/graph-engine-service-ges">Подробнее</a>`
 }, {
     selector: "document-database-popup",
-    html: `Предоставляет собой сервис управления документоориентированной базой данных, полностью совместимой с MongoDB. <a class="link-1 external-link" rel="noopener noreferrer" target="_self" href="https://sbercloud.ru/ru/products/document-database-service-mongodb">Подробнее</a>`
+    html: `Предоставляет собой сервис управления документоориентированной базой данных, полностью совместимой с MongoDB. <a class="tooltip-link" rel="noopener noreferrer" target="_self" href="https://sbercloud.ru/ru/products/document-database-service-mongodb">Подробнее</a>`
 }, {
     selector: "distributed-cache-popup",
-    html: `Высокопроизводительный распределенный сервис кэширования данных в памяти. <br /> <a class="link-1 external-link" rel="noopener noreferrer" target="_self" href="https://sbercloud.ru/ru/products/distributed-cache-service-for-memcached">For Memcached</a> <br /> <a class="link-1 external-link" rel="noopener noreferrer" target="_self" href="https://sbercloud.ru/ru/products/distributed-cache-service-for-redis">For Redis</a>`
+    html: `Высокопроизводительный распределенный сервис кэширования данных в памяти. <br /> <a class="tooltip-link" rel="noopener noreferrer" target="_self" href="https://sbercloud.ru/ru/products/distributed-cache-service-for-memcached">For Memcached</a> <br /> <a class="tooltip-link" rel="noopener noreferrer" target="_self" href="https://sbercloud.ru/ru/products/distributed-cache-service-for-redis">For Redis</a>`
 }, {
     selector: "relational-database-popup",
-    html: `Сервис управления реляционными базами данных. <a class="link-1 external-link" rel="noopener noreferrer" target="_self" href="https://sbercloud.ru/ru/products/relational-databases-service">Подробнее</a>`
+    html: `Сервис управления реляционными базами данных. <a class="tooltip-link" rel="noopener noreferrer" target="_self" href="https://sbercloud.ru/ru/products/relational-databases-service">Подробнее</a>`
 }, {
     selector: "best-startup",
     html: `100 000 р. грант на облачные услуги SberCloud для действующих компаний (выдается только на юр. лицо или ИП)`
@@ -61,7 +61,7 @@ const popupOpts = [{
     html: `Конечно! <br/> Команде хакатона требуются разные роли: менеджеры, питчеры, дизайнеры и маркетологи. Если у вас есть опыт в каком-либо вопросе, это может пригодиться. Просто зарегистрируйтесь и опишите свой опыт - наверняка вы можете быть полезны одной из команд.`
 }, {
     selector: "answer-todo",
-    html: `Напишите нам в <a class="link-1 external-link" rel="noopener noreferrer" target="_self" href="https://t.me/joinchat/CN0_CRu4NI1L0DStXsp_dw">чат хакатона</a> - будем рады ответить на вопросы и помочь.`
+    html: `Напишите нам в <a class="tooltip-link" rel="noopener noreferrer" target="_self" href="https://t.me/joinchat/CN0_CRu4NI1L0DStXsp_dw">чат хакатона</a> - будем рады ответить на вопросы и помочь.`
 }];
 
 function createTooltip() {

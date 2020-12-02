@@ -241,4 +241,8 @@
     .mentors-dots-mobile.bottom {
         top: 343.25rem;
     }
+    .mentors__text {
+        display: grid;
+        grid-template-rows: 4rem 6rem 14rem;
+    }
 }
