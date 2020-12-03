@@ -92,6 +92,13 @@
     margin-top: 2rem;
 }
 
+@media screen and (max-width: 1342px) {
+    .ready__container{
+        width: 68%;
+    }
+}
+
+
 @media screen and (max-width: 1617px) {
     .card__element {
         grid-template-rows: 20rem 12rem 5rem 23rem 12rem;

@@ -71,7 +71,7 @@
         justify-content: flex-start;
     }
     .links__el {
-        width: initial;
+        width: calc((100%/2) - 6rem);
     }
     .sber {
         width: 70%;
