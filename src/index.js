@@ -46,3 +46,40 @@ window.addEventListener("load", function(){
   });
 
 })
+
+const timeoutIds = [];
+const arrayForAnimation = document.querySelectorAll('.animation');
+
+const changeAnimationStatus = (elem) =>{
+    if (ifElementInWiev(elem)) {
+        setTimeout(()=>{
+            elem.style.transition = "all 0.7s ease-out";
+            elem.style.opacity = 1;
+            elem.style.transform = `translate(0, 0)`
+            timeoutIds.forEach(timer =>{
+                if (timer.item === elem) {
+                    clearInterval(timer.intId);
+                }
+            });
+        }, 500, elem)
+    }
+}
+
+const ifElementInWiev = (elem) => {
+    const rect = elem.getBoundingClientRect();
+    const elemTop = rect.top;
+    const elemBottom = rect.bottom;
+
+    const isVisible = (elemTop >= 0) && (elemBottom <= window.innerHeight);
+    return isVisible;
+};
+
+arrayForAnimation.forEach(item=>{
+    item.style.opacity = 0;
+    item.style.transform = 'translate(0, 2rem)';
+})
+
+arrayForAnimation.forEach(item=>{
+    const intId = setInterval(changeAnimationStatus, 200, item);
+    timeoutIds.push({intId, item});
+})
