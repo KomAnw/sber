@@ -1,0 +1,113 @@
+.podcasts {
+    width: 100%;
+    margin: 16rem auto;
+}
+.podcasts__container {
+    margin: 0 auto;
+    width: 55%;
+}
+.podcasts__heading {
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: custom_32105;
+    font-style: normal;
+    color: rgba(255, 255, 255, 1);
+}
+.podcasts__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+}
+.podcasts__elem {
+    display: grid;
+    grid-template-rows: 7rem 12rem 8rem;
+}
+.podcasts__title {
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: custom_32105;
+    font-style: normal;
+    color: rgba(255, 198, 2, 1);
+    margin: 0;
+    align-self: center;
+}
+.podcasts__description {
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: custom_32105;
+    font-style: normal;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+.podcasts a {
+    align-self: center;
+}
+
+.podcasts__img{
+    width: 5rem;
+}
+
+@media screen and (max-width: 1562px) {
+    .podcasts__elem {
+        grid-template-rows: 7rem 15rem 8rem;
+    }
+}
+
+@media screen and (max-width: 1361px) {
+    .podcasts__elem {
+        grid-template-rows: 7rem 18rem 8rem;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .podcasts__container {
+        width: 80%;
+    }
+    .podcasts__elem {
+        grid-template-rows: 7rem 12rem 8rem;
+    }
+}
+
+@media screen and (max-width: 805px) {
+    .podcasts__list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5rem;
+    }
+    .podcasts__elem {
+        grid-template-rows: 7rem 7rem 8rem;
+    }
+    .podcasts__list .podcasts__elem:nth-child(3) {
+        grid-template-rows: 7rem 10rem 8rem;
+    }
+}
+
+@media screen and (max-width: 677px) {
+    .podcasts__list .podcasts__elem:nth-child(3) {
+        grid-template-rows: 7rem 12rem 8rem;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    .podcasts__elem {
+        grid-template-rows: 7rem 9rem 8rem;
+    }
+    .podcasts__list .podcasts__elem:nth-child(3) {
+        grid-template-rows: 7rem 12rem 8rem;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .podcasts__list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .podcasts__elem {
+        grid-template-rows: 7rem 6rem 8rem;
+    }
+    .podcasts__list .podcasts__elem:nth-child(3) {
+        grid-template-rows: 7rem 9rem 8rem;
+    }
+    .podcasts__heading{
+        font-size: 5rem;
+        color: rgba(7, 232, 151, 1);
+    }
+}
