@@ -25,6 +25,9 @@
     opacity: .5;
     z-index: -1;
 }
+.links-partners{
+    margin-top: 10rem;
+}
 
 @media screen and (max-width: 975px) {
     
@@ -33,10 +36,6 @@
 @media screen and (max-width: 599px) {
     .links__el.tw{
         transform: translate(70px, 6.25rem);
-    }
-
-    .links__el.sber img{
-        width: 41.25rem;
     }
     .grid-partners {
         position: absolute;

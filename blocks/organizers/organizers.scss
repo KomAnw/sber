@@ -25,7 +25,7 @@
 .links__el {
     display: flex;
     align-items: center;
-    width: calc(100%/3);
+    width: auto;
 }
 .links__img {
     width: 31.25rem;
@@ -66,21 +66,16 @@
         list-style: none;
         margin-left: 1.25rem;
         padding: 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
     .links__el {
-        width: calc((100%/2) - 6rem);
-    }
-    .sber {
-        width: 70%;
+        width: auto;
     }
     .sber img{
-        width: 48.125rem;
+        width: 28.125rem;
     }
     .links__img {
         width: 28.75rem;
-        margin-right: 3rem;
     }
 }
