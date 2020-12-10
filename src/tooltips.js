@@ -33,10 +33,10 @@ const popupOpts = [{
     selector: "special-price",
     html: `Фирменный мерч Школы 21`
 }, 
-// {
-//     selector: "special-nomination",
-//     html: `Подробности будут объявлены отдельно`
-// }, 
+{
+    selector: "special-nomination",
+    html: `Прохождение в буткемп программы акселератора Sber500`
+}, 
 {
     selector: "grants-sber",
     html: `Гранты на использование SberCloud.Advanced всем командам, прошедшим отбор на хакатон`

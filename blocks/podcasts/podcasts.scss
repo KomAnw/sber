@@ -47,11 +47,6 @@
     width: 5rem;
 }
 
-.podcasts__list .podcasts__elem:nth-child(2) .podcasts__img,
-.podcasts__list .podcasts__elem:nth-child(3) .podcasts__img {
-    opacity: 0.5;
-}
-
 @media screen and (max-width: 1562px) {
     .podcasts__elem {
         grid-template-rows: 7rem 15rem 8rem;
