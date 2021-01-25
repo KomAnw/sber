@@ -31,7 +31,7 @@
 }
 .card__element {
     display: grid;
-    grid-template-rows: 19rem 11rem 5rem 19rem 12rem;
+    grid-template-rows: 19rem 11rem 5rem 19rem 23rem;
     justify-items: center;
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 8px;
@@ -92,6 +92,13 @@
     margin-top: 2rem;
 }
 
+.card__video{
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
 @media screen and (max-width: 1342px) {
     .ready__container{
         width: 68%;
@@ -101,19 +108,19 @@
 
 @media screen and (max-width: 1617px) {
     .card__element {
-        grid-template-rows: 20rem 12rem 5rem 23rem 12rem;
+        grid-template-rows: 20rem 12rem 5rem 23rem 22rem;
     }
 }
 
 @media screen and (max-width: 1120px) {
     .card__element {
-        grid-template-rows: 22rem 12rem 5rem 23rem 12rem;
+        grid-template-rows: 22rem 12rem 5rem 23rem 25rem;
     }
 }
 
 @media screen and (max-width: 1040px) {
     .card__element {
-        grid-template-rows: 25rem 12rem 5rem 23rem 12rem;
+        grid-template-rows: 25rem 12rem 5rem 23rem 26rem;
     }
 }
 
@@ -127,7 +134,7 @@
         font-size: 2.5rem;
     }
     .card__element {
-        grid-template-rows: 25rem 14rem 6rem 21rem 14rem;
+        grid-template-rows: 25rem 14rem 6rem 21rem 29rem;
     }
     .card__date {
         font-size: 3rem;
@@ -140,23 +147,17 @@
     }
 }
 
-@media screen and (max-width: 975px) {
-    .card__element {
-        grid-template-rows: 25rem 14rem 6rem 26rem 14rem;
-    }
-}
-
 @media screen and (max-width: 910px) {
     .card__list {
         grid-template-columns: repeat(2, 1fr);
     }.card__element {
-        grid-template-rows: 25rem 10rem 8rem 20rem 14rem;
+        grid-template-rows: 25rem 10rem 8rem 20rem 28rem;
     }
 }
 
 @media screen and (max-width: 621px) {
     .card__element {
-        grid-template-rows: 25rem 12rem 8rem 25rem 14rem;
+        grid-template-rows: 25rem 12rem 8rem 25rem 28rem;
     }
 }
 
@@ -170,7 +171,7 @@
         font-size: 4.5rem;
     }
     .card__element {
-        padding: 8rem 5rem 0 5rem;
+        padding: 8rem 5rem 5rem 5rem;
     }
     .card__img {
         width: 28rem;
@@ -204,10 +205,15 @@
         font-size: 3rem;
     }
     .card__element {
-        grid-template-rows: 28rem 18rem 8rem 25rem 14rem;
+        grid-template-rows: 28rem 18rem 8rem 25rem auto;
     }
     #petrP{
         width: 100%;
         font-size: 3.43rem;
+    }
+    .card__video{
+        max-height: 260px;
+        min-height: 200px;
+        height: auto;
     }
 }
